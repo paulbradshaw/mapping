@@ -47,5 +47,15 @@ Select the relevant column from the dataset on the left, and from the one on the
 
 Then click **Next step**.
 
+Now you have the option to choose with parts of each dataset will be carried into the new one. If you just want everything then switch on the 'Select all columns' button in the bottom right, or you can turn them off and on individually.
 
+Click **Merge datasets**
+
+After a few moments the new, merged, dataset will be ready and you'll be taken to the data view of that new dataset. Scroll to the right to check the fields are there from both datasets.
+
+Note the name of this new dataset in the upper left corner: you can change this by clicking on it and editing it.
+
+You can also switch to 'Map view' at the top. At this stage all the shapes will still be the same colour, but you can change that by clicking on the 'Wizard' button on the right side (a paint brush icon), selecting the type of effect you want (choropleth for numerical values like crimes or votes; category for things like parties or food ratings).
+
+Once you select an effect you can then select the column that determines the colour from a dropdown menu underneath. And at this point the data from one dataset (values) is affecting the data from another (shapes).
 
