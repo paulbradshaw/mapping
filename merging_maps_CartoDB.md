@@ -1,1 +1,0 @@
-# Merging maps in CartoDB
