@@ -144,8 +144,11 @@ Then click on the **Custom** tab.
 This will have a chunk of HTML for the info window which looks something like this:
 
 `<div etc...>`
+
 `<b>FIELD TITLE</b> {FIELD TITLE}`
+
 `<b>FIELD2 TITLE</b> {FIELD2 TITLE}`
+
 `</div>`
 
 Ignore the `<div>` tags at the top and bottom and focus on the other lines. These consist of two parts:
@@ -155,25 +158,36 @@ Ignore the `<div>` tags at the top and bottom and focus on the other lines. Thes
 
 The first part is static HTML text. You can change it to anything you like.
 
-The second part is more important: this is the actual data for that column. For example, something that says {COUNTRY} in this window will actually say ‘Spain’ on one region, and ‘Italy’ on another, and so on.
+The second part is more important: this is the actual data for that column. For example, something that says `{COUNTRY}` in this window will actually say ‘Spain’ on one region, and ‘Italy’ on another, and so on.
 
 A quick piece of customisation, then, might involve you changing the first part to something more meaningful (if your column headings aren’t already a meaningful label), or at the very least a label which includes a colon or similar.
+
 Or you might delete that label entirely if the data itself is self-explanatory. For example, you might decide that ‘Spain’ doesn’t need to be preceded by the label ‘Country:’.
+
 Make a simple change like this, save it, and look at the results (you’ll have to click on a region to see the info window).
+
 But then repeat the process to customise the label further. For example, you might want to write something more free-flowing like so:
-<b>The country of {COUNTRY} has a population of {POPULATION}</b>
+
+`<b>The country of {COUNTRY} has a population of {POPULATION}</b>`
+
 Or this:
-<b>{AGE}-year-old {NAME}</b> from {HOMETOWN} carried the torch in {LOCATION} on {DATE}.
+
+`<b>{AGE}-year-old {NAME}</b> from {HOMETOWN} carried the torch in {LOCATION} on {DATE}.`
+
 You can also pull in images and create links if your data contains URLs like so:
-<a href=”{URL}”>Here is the linked text</a> and here is an image: <img src=”{IMAGEURL}” alt=”{NAME}” />
-Step 7: exploring Fusion Tables further
+
+`<a href=”{URL}”>Here is the linked text</a> and here is an image: <img src=”{IMAGEURL}” alt=”{NAME}” />`
+
+## Step 7: exploring Fusion Tables further
 
 These are just some of the basic techniques in creating a region map in Fusion Tables with shape files and customised colouring and info windows. There’s more you can do, such as embedding charts within information windows and various other tricks. Search for Fusion Tables on YouTube or explore the Help documentation on Fusion Tables to find out more.
-Recommended links:
-Thematic maps with Google Fusion Tables (PDF) (Peter Aldhous)
-Video: How to create thematic data maps with Google Fusion Tables (Jack Dougherty)
-How to make a map with Google Fusion tables (Simon Rogers)
-How to make a choropleth map with Google Fusion Tables (Sophie Murray-Morris)
-Borders and boundaries: 16 Google Fusion border files for you to use (Simon Rogers)
-Scottish local authorities KML (fusion table - missing Eilean Siar). Scottish local authorities KML (fusion table - with Eilean Siar)
-Video tutorial on creating a point-based map:  https://www.youtube.com/watch?v=ok7gz4nAnFE 
+
+### Recommended links:
+
+* [Thematic maps with Google Fusion Tables (PDF)](https://www.google.com/url?q=http://www.peteraldhous.com/CAR/Making_a_thematic_map_with_Google_Fusion_Tables.pdf&sa=D&ust=1456427139756000&usg=AFQjCNEisa1sI7hwea1Kgd_sdwMEv-veEw) (Peter Aldhous)
+* [Video: How to create thematic data maps with Google Fusion Tables](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DReUAlZsJxP4&sa=D&ust=1456427139756000&usg=AFQjCNF50ch8L_hIL64BNz6eZ1zYh7tdEA) (Jack Dougherty)
+* [How to make a map with Google Fusion tables](https://www.google.com/url?q=http://simonrogers.net/2013/01/27/how-to-make-a-map-with-google-fusion-tables/&sa=D&ust=1456427139757000&usg=AFQjCNGEr2oRxe3NhL1-5aRuOlHjceJ__w) (Simon Rogers)
+* [How to make a choropleth map with Google Fusion Tables](https://www.google.com/url?q=http://www.interhacktives.com/2013/12/02/how-to-make-a-choropleth-map-with-google-fusion-tables/&sa=D&ust=1456427139757000&usg=AFQjCNEwrKfkxyK3EdT4g8YAddlHpXNQag) (Sophie Murray-Morris)
+* [Borders and boundaries: 16 Google Fusion border files for you to use](https://www.google.com/url?q=http://simonrogers.net/2013/01/28/borders-and-boundaries-16-google-fusion-border-files-for-you-to-use/&sa=D&ust=1456427139758000&usg=AFQjCNGbMrKJLm-r5sH-at6H--_pPn1M0Q) (Simon Rogers)
+* [Scottish local authorities KML](https://www.google.com/url?q=https://www.google.com/fusiontables/data?docid%3D1Mjnnet6Un_HjVSGoOAcsphCfBhSA2bjN9n6V5iU%23map:id%3D4&sa=D&ust=1456427139758000&usg=AFQjCNHqd9gZ7OoNyH_XRE-jLfBzvrdhqA) (fusion table - with Eilean Siar)
+* Video tutorial on creating a point-based map:  [https://www.youtube.com/watch?v=ok7gz4nAnFE](https://www.youtube.com/watch?v=ok7gz4nAnFE)
