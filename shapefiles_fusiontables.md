@@ -13,42 +13,74 @@ We’re going to cover the first option - but if that fails, follow [this tip on
 
 To find public Fusion Tables, use the specialist search engine at [research.google.com/tables](research.google.com/tables) to look for something like “country borders kml” or “country borders geometry”
 
+![](https://lh5.googleusercontent.com/HW5QcsOKvCIZF5l2BbD9UFP9Chn2SCPwOGKtImyEbvyuly56_5AmuhPWKTR-pWgG_4fGG_Bw6Dsm_7v8V1miuDZDTWAB9sk9kBMkn2hmstCh4fDE8wQxrLnIRfCMfZpPIg)
+
 KML stands for Keyhole Markup Language, a language used to describe geographical data. You want some results like this -
 
-![](https://lh5.googleusercontent.com/HW5QcsOKvCIZF5l2BbD9UFP9Chn2SCPwOGKtImyEbvyuly56_5AmuhPWKTR-pWgG_4fGG_Bw6Dsm_7v8V1miuDZDTWAB9sk9kBMkn2hmstCh4fDE8wQxrLnIRfCMfZpPIg)
+![](https://lh6.googleusercontent.com/mpZmksTjPq7Cxv7WL8gTnTvFYUp0eOWIEkxk0U3SHEgvoac5coRTcinibzQ722hdM59nU2vjVVPdIq6b2KStg-NIFPxP04zT0MdUoFG_uTrt2S09T7u7mDGDy6sLbpJcKA)
 
 Once you find a result which you think covers the regions you’re looking for, click on the table to see what’s inside.
 You need to make sure the table has two things:
-A list of the regions which matches those in your own data (e.g. country names; counties, etc.)
-A column (it may be called ‘geometry’) which is filled with nothing but this: kml...
-Note that Fusion Tables only shows the first few columns and you may have to click on the arrow on the right hand edge of the title row to see further columns.
+
+1. A list of the regions which matches those in your own data (e.g. country names; counties, etc.)
+2. A column (it may be called ‘geometry’) which is filled with nothing but this: `kml...`
+
+*Note that Fusion Tables only shows the first few columns* and you may have to click on the **arrow** on the right hand edge of the title row to see further columns.
+
 You can also try a search without ‘KML’, but you want to make sure that the table you eventually use includes that column.
-Once you do find a table with both those things, click on File > Download... to download a copy to your computer.
+Once you do find a table with both those things, you need to download TWO copies to your computer: one in CSV format, and another in KML format.
 
-Step 2: Match your region names to those in the shape file table
+The CSV format data can be downloaded from the normal table view: click on `File > Download...` and select the CSV option. You will notice that the KML option is greyed out...
 
-Open that file in a spreadsheet package such as Excel or Google Docs. The KML column will not make any sense, but ignore that - it’s the list of regions that you need.
+![](https://lh3.googleusercontent.com/yYIqeBN7U86Rzl7TeFO9Q-127zJKLAavAD9MxRco6QlCR1GrPkXvzaX2XIUzv16YyYOD2jXB-l0IHs_ZsLH6KbIXXtEZLjz7ayOe1HS2D2C_fwF1TKmqF7quUBxcPaCGqg)
+
+...but this fusion table should also have a tab which says '**Map of Geometry**'. Click on that to see the data shown on a map - but on this view you can also download the KML file of the data. So, while you are on the map view, click on `File > Download...` again and select the **KML** option. 
+
+This KML file can be used wherever you need shapes - including other mapping tools such as CartoDB - but you need the CSV file to check that the list of entities (such as area names) matches your own.
+
+## Step 2: Match your region names to those in the shape file table
+
+Open the CSV file in a spreadsheet package such as Excel or Google Docs. The geometry/KML column will not make any sense, but ignore that - it’s the list of regions that you need.
+
+![](https://lh4.googleusercontent.com/MFQPR-oOeLBa6WKCc4YnJiufe-RTiM2sScH3C4_q-yuifLAzuwMaHcs-6eu57uwSIbNnBamBA5EIaSlIoCBO2rZ8IozZhuK22z2fUoyVSTIZ3wvWIiLn7dlfH78vxgvshQ)
 
 You need to check that your list of regions matches those in this list. To do that, copy that column into a spreadsheet containing your original data (the data you want to map)...
 
-And use the VLOOKUP function to check for matches like so:
+![](https://lh5.googleusercontent.com/J5SklIKpzNUmchkfxZ27lW5CZUAUmBUfZXVfLmFi9n2SD0ndioGWEtUWhjSwn9kOk7HrVXhyEs4VxifRgmwzs_mi9bNwX_6bq0ZXoCfBuP9IgjNmca7FZ1kQCw58xPThYA)
 
-(In the example above, replace A2 with the cell containing your first region, and shapefileNames with the name of the sheet containing your list of regions from the shape file table. Change A:A to the column containing that list.)
-Where your region name does not match the name in the shape file table, you will see #N/A
+And use the `VLOOKUP` function to check for matches like so:
+
+![](https://lh3.googleusercontent.com/c3cHIwaqXDX39X0s_r7Tm94uAr9IthVstt6eiQKA8XzWlrjlrqLw7cRp3HAljTqfVkpcjEEQoZE_rscJTg70zMYh_Bch0ZuVrxYDXrYdkjdnZBjSAKbCUAl8R5WfcDVP8Q)
+
+(In the example above, replace `A2` with the cell containing your first region, and shapefileNames with the name of the sheet containing your list of regions from the shape file table. Change `A:A` to the column containing that list.)
+
+Where your region name does not match the name in the shape file table, you will see `#N/A`
+
 Sort your data so those entries come to the top, and clean your data so that it matches. You might have to do this manually.
+
 Now you’re ready to combine the two datasets in Fusion Tables itself.
-Step 3: Create the first Fusion Table
 
-Log in to Google Drive and click on Create > More > Fusion Table
-(If that option isn’t available, click on ‘Add app’, find Fusion Tables and click Create table)
+## Step 3: Create the first Fusion Table
 
-You can choose to create a table from a spreadsheet already in Google Drive, or upload one from your computer. Depending where your original data is (not the shapefile one), find it and upload it - uploading from your computer is more reliable, I find.
+Log in to Google Drive and click on `Create > More > Fusion Table`
 
-Step 4: Merge with a shape file Fusion Table
+(If that option isn’t available, click on ‘Add app’, find Fusion Tables and click `Create table`)
+
+![](https://lh5.googleusercontent.com/pT3xvllJdAGY55PbIBeB20Ph_fapmXwijMtT4wQYidfpft1oMafrYm-Ly6eJek1R-c1UyQnEN7lzTdSpXqFH4rKG6_PlHFu5Xu5Or0667KfEFDaEq_cELxUJUqtIpWjB7A)
+
+You can choose to create a table from a spreadsheet already in Google Drive, or upload one from your computer. Depending where your original data is (not the KML one), find it and **upload** it - uploading from your computer is more reliable, I find.
+
+![](https://lh4.googleusercontent.com/YKrIPIj2DeXYUAkV2m8ew8K3OzBDKXACgeKJu6OHWQWhKmkM4Q86bP1zW9C6qVXA1Zfsa0gLu5KaOxGXaV3GoItfq6bBzNTuZ8BUE7qxypE5F9_PRw4YLo-jfFHvT_5-QA)
+
+## Step 4: Merge with a shape file Fusion Table
 
 Now you have the data you want to map - you need to merge this with the shape file data in order to map it.
-There are two ways you can do this. The easiest is to click on File> Find a table to merge with...
+
+There are two ways you can do this. The easiest is to click on `File> Find a table to merge with...`
+
 This will open up a new window where you can once again search public Fusion Tables for one with the data you want to merge with.
+
+![](https://lh6.googleusercontent.com/YbVR461llMVWs67mkGD_JhLsOdQU-ZIF0f6guONqpjdeehJzjgX9T_kcpoJNaRKkEV6HfW7BnedIRwOZs-mEvR3vnzWJqeITdSD07o14I_UQu5KjPbxvw6Lf-Y6iIyJiMA)
 
 You’ve already done this, so you can search for that table again here. The search will use your existing data to help it find results that have a close match, so make sure the drop-down menu at the top of the search window - ‘Suggest public tables matching on’ - has the column with your region in selected.
 
