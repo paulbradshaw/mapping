@@ -163,7 +163,11 @@ There's also another option which doesn't involve shape files at all: you can fi
 
 When choosing to colour-code shapes in a map you need to consider the same issues as outlined above with regard to points: don't choose too many colours, and keep the story clear and/or useful.
 
-It is a good idea to use a tool like Colorbrewer to help you choose the colour palette. This will suggest colour combinations which can be seen by users with colourblindness, and which also suit the type of data you are showing (ordinal, for example).
+It is a good idea to use a tool like Colorbrewer to help you choose the colour palette. This will suggest colour combinations which can be seen by users with colourblindness, and which also suit the type of data you are showing (ordinal, for example). Below you can see a good example (from [this article](https://www.washingtonpost.com/news/wonk/wp/2016/04/11/the-dirty-little-secret-that-data-journalists-arent-telling-you/)) of how different colour schemes - and colour *scales* - communicate different types of data more clearly. 
+
+![](http://41.media.tumblr.com/fe657327da5c5d98b06cfd20544174a5/tumblr_o5o5otnWJJ1qzxm9ao1_500.png)
+
+In that piece Christopher Ingraham writes: "Mapmakers often respect big distinctions by using a bivariate color scale – say, one set of colors for positive values (like blue), and another set of colors for negative ones (like red)." Colorbrewer includes explanations of different colour scales.
 
 Consider making shapes semi-transparent so the detail underneath can still be seen; and setting border as white rather than black.
 
