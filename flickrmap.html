@@ -11,7 +11,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
     <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyB3WDbJuoc6iqUEQ7ZkiQWHw6eqO5Os8Zc">
+      src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyB3WDbJuoc6iqUEQ7ZkiQWHw6eqO5Os8Zc"> //this key was taken from https://gist.github.com/virtualandy/5143871 and a new one needs to be generated or you get an error
     </script>
     <script>
     function initialize(searchLat, searchLon) {
@@ -35,7 +35,7 @@
 
 function getFlickrPhotos(map, searchLat, searchLon) {
 
-  var FLICKR_API_KEY = '40c7bbee397489819102220a79091248';
+  var FLICKR_API_KEY = '40c7bbee397489819102220a79091248'; //this key was taken from https://gist.github.com/virtualandy/5143871 and a new one needs to be generated or you get an error
 
   var searchUrl = "http://api.flickr.com/services/rest/?method=flickr.photos.search&";
 
@@ -89,6 +89,8 @@ function getFlickrPhotos(map, searchLat, searchLon) {
 
   function getPhotoLocation(photoId) {
     var photoLocUrl = "http://api.flickr.com/services/rest/?method=flickr.photos.geo.getLocation&";
+    //because this is http and not https you get an error - to fix switch to https
+    //see https://stackoverflow.com/questions/27148944/mixed-content-in-chrome-and-ie
 
     var photoParams = {
       'api_key': FLICKR_API_KEY,
