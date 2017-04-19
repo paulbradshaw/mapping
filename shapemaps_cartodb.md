@@ -7,7 +7,7 @@ First you need to find the data you want to map. Normally you will need to merge
 1. Firstly, the values you want to show on the map (these might be numerical, such as crime rates or votes, or categorical, such as food ratings or political party)
 2. Secondly, the *shapes* you want to put on the map (colouring them comes later)
 
-For the second part [read step 1 and 2 of this guide to shape files and Google Fusion Tables here](https://github.com/paulbradshaw/mapping/blob/master/shapefiles_fusiontables.md).
+For the second part [read step 1 and 2 of this guide to shape files and Google Fusion Tables here](https://github.com/paulbradshaw/mapping/blob/master/shapefiles_fusiontables.md). See also the notes at the end of this for other examples of shape files outside of Fusion Tables.
 
 If you need some data to play with, here is a [fusion table with shapes for the political wards in Birmingham](https://www.google.com/fusiontables/DataSource?docid=1IYgtXCWjcqV3u8_Gv67KbJofK0k4zBUsIPNabqU#map:id=3). Download it in both KML and CSV, and use `VLOOKUP` to check it against [this sample file](https://drive.google.com/file/d/0B5To6f5Yj1iJOENXRmxGcFFIUFU/view?usp=sharing)
 
@@ -59,3 +59,8 @@ You can also switch to 'Map view' at the top. At this stage all the shapes will 
 
 Once you select an effect you can then select the column that determines the colour from a dropdown menu underneath. And at this point the data from one dataset (values) is affecting the data from another (shapes).
 
+## Other shape files
+
+Sometimes you can't find the shapes on Fusion Tables. In that case, you need to look more widely for shape files. For example, if you want to use constituencies you might find [this guide](http://hublog.hubmed.org/archives/001987.html) that links to [this zip file of political constituencies](https://github.com/hubgit/boundary-line-constituencies-simplified/blob/master/simplified-1/westminster_constituencies.zip).
+
+To use those constitencies, drag and drop *the zip file* when creating a new dataset in Carto. You do not need to unzip it, and indeed it will reject any attempt to do so. Once added, you can merge it with other datasets as detailed above.
