@@ -1,0 +1,15 @@
+{
+	"layout":"odd-r",
+	"hexes":{
+		"Sutton Coldfield":{"q":3,"r":4,"col":"blue"},
+		"Perry Barr":{"q":1,"r":3,"col":"red"},
+		"Erdington":{"q":2,"r":3,"col":"red"},
+		"Ladywood":{"q":2,"r":2,"col":"red"},
+		"Hodge Hill":{"q":3,"r":2,"col":"red"},
+		"Edgbaston":{"q":0,"r":1,"col":"red"},
+		"Hall Green":{"q":1,"r":1,"col":"red"},
+		"Yardley":{"q":2,"r":1,"col":"red"},
+		"Northfield":{"q":0,"r":0,"col":"red"},
+		"Selly Oak":{"q":1,"r":0,"col":"red"}
+	}
+}
