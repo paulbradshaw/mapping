@@ -1,0 +1,2736 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+	<title>Swing 2017</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<link href="assets/css/mine.css" rel="stylesheet"/>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.9.1/d3.min.js"></script>
+	<link href="assets/css/animate.min.css" rel="stylesheet"/>
+	<link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link href="assets/css/themify-icons.css" rel="stylesheet">
+
+	<script src="https://cdn.rawgit.com/olihawkins/d3-hexjson/master/build/d3-hexjson.js"></script>
+
+
+</head>
+<body>
+
+
+
+	<div class="wrapper">
+		<div class="sidebar" data-background-color="white" data-active-color="danger">
+
+		<div class="sidebar-wrapper">
+			<div class="logo">
+				<a href="#" class="simple-text">
+					Swing 2017
+				</a>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+<div class="main-panel">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar bar1"></span>
+					<span class="icon-bar bar2"></span>
+					<span class="icon-bar bar3"></span>
+				</button>
+
+
+				<span class="navbar-brand">  </span>
+				<!--a class="navbar-brand" href="#"><span id="const_name">Hornsey and Wood Green</span></a-->
+			</div>
+
+		</nav>
+
+
+		<div class="content">
+			<div class="container-fluid">
+				<div class="row">
+					<div>
+					<input type="range" id="slider" min=0 max=100 /></input>
+				</div>
+			</div>
+
+			<div class="row">
+				<div>
+					<span id="slidertext">No swing</span>
+					<span id="slidervalue">0</span>
+					<span id="seats">0</span>
+				</div>
+			</div>
+				<div class="row">
+
+
+					<div class="col-md-8" id="graph"></div>
+					<div class="col-md-4" id="vis"></div>
+
+				</div>
+
+				<div class="row">
+
+					<div>
+
+						<script>
+							$('#slider').change(function() {
+								swing_pc = $(this).val()-50;
+								swing=200*swing_pc/100;
+
+								if (swing>0){
+									text = swing+"% swing to Conservative";
+								} else {
+									text = -swing+"% swing to Labour";
+								}
+								$('#slidervalue').html(swing);
+								$('#slidertext').html(text);
+								paint_constituencies();
+							});
+						</script>
+					</div>
+				</div>
+
+
+
+
+
+
+
+					<script>
+
+					// // The constituency data
+					var myconstituencies = [{
+					 "name": "Gower",
+					 "id": "W07000046",
+					 "majority": "0.06",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Derby North",
+					 "id": "E14000662",
+					 "majority": "0.09",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "City of Chester",
+					 "id": "E14000640",
+					 "majority": "0.18",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Croydon Central",
+					 "id": "E14000654",
+					 "majority": "0.31",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ealing Central and Acton",
+					 "id": "E14000674",
+					 "majority": "0.54",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Vale of Clwyd",
+					 "id": "W07000060",
+					 "majority": "0.67",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Brentford and Isleworth",
+					 "id": "E14000593",
+					 "majority": "0.81",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Bury North",
+					 "id": "E14000611",
+					 "majority": "0.84",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Morley and Outwood",
+					 "id": "E14000826",
+					 "majority": "0.87",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Halifax",
+					 "id": "E14000723",
+					 "majority": "0.98",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wirral West",
+					 "id": "E14001044",
+					 "majority": "1",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Thurrock",
+					 "id": "E14000995",
+					 "majority": "1.08",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Plymouth, Sutton and Devonport",
+					 "id": "E14000880",
+					 "majority": "1.09",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ilford North",
+					 "id": "E14000759",
+					 "majority": "1.2",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Newcastle-under-Lyme",
+					 "id": "E14000834",
+					 "majority": "1.51",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Brighton, Kemptown",
+					 "id": "E14000597",
+					 "majority": "1.52",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bolton West",
+					 "id": "E14000580",
+					 "majority": "1.65",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Weaver Vale",
+					 "id": "E14001024",
+					 "majority": "1.72",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Telford",
+					 "id": "E14000989",
+					 "majority": "1.8",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Barrow and Furness",
+					 "id": "E14000543",
+					 "majority": "1.84",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wolverhampton South West",
+					 "id": "E14001051",
+					 "majority": "1.99",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hampstead and Kilburn",
+					 "id": "E14000727",
+					 "majority": "2.11",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Enfield North",
+					 "id": "E14000691",
+					 "majority": "2.35",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hove",
+					 "id": "E14000755",
+					 "majority": "2.37",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Bedford",
+					 "id": "E14000552",
+					 "majority": "2.38",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Plymouth, Moor View",
+					 "id": "E14000879",
+					 "majority": "2.41",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Dewsbury",
+					 "id": "E14000666",
+					 "majority": "2.71",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Lancaster and Fleetwood",
+					 "id": "E14000776",
+					 "majority": "3.03",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Lincoln",
+					 "id": "E14000792",
+					 "majority": "3.08",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North East Derbyshire",
+					 "id": "E14000843",
+					 "majority": "3.93",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Peterborough",
+					 "id": "E14000878",
+					 "majority": "4.09",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Cardiff North",
+					 "id": "W07000051",
+					 "majority": "4.18",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Corby",
+					 "id": "E14000648",
+					 "majority": "4.29",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Waveney",
+					 "id": "E14001022",
+					 "majority": "4.61",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Warrington South",
+					 "id": "E14001018",
+					 "majority": "4.63",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Harrow West",
+					 "id": "E14000732",
+					 "majority": "4.74",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Bridgend",
+					 "id": "W07000073",
+					 "majority": "4.88",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Middlesbrough South and East Cleveland",
+					 "id": "E14000820",
+					 "majority": "4.97",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Westminster North",
+					 "id": "E14001036",
+					 "majority": "5",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Southampton, Itchen",
+					 "id": "E14000955",
+					 "majority": "5.18",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Walsall North",
+					 "id": "E14001011",
+					 "majority": "5.25",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Tooting",
+					 "id": "E14000998",
+					 "majority": "5.31",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wrexham",
+					 "id": "W07000044",
+					 "majority": "5.6",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Birmingham, Northfield",
+					 "id": "E14000565",
+					 "majority": "5.91",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wakefield",
+					 "id": "E14001009",
+					 "majority": "6.08",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Gedling",
+					 "id": "E14000710",
+					 "majority": "6.22",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Keighley",
+					 "id": "E14000766",
+					 "majority": "6.22",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Eltham",
+					 "id": "E14000690",
+					 "majority": "6.24",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "North Warwickshire",
+					 "id": "E14000854",
+					 "majority": "6.28",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Copeland",
+					 "id": "E14000647",
+					 "majority": "6.47",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Stoke-on-Trent South",
+					 "id": "E14000974",
+					 "majority": "6.49",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Carlisle",
+					 "id": "E14000620",
+					 "majority": "6.51",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Birmingham, Edgbaston",
+					 "id": "E14000560",
+					 "majority": "6.55",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Clwyd South",
+					 "id": "W07000062",
+					 "majority": "6.85",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Halesowen and Rowley Regis",
+					 "id": "E14000722",
+					 "majority": "7.03",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Crewe and Nantwich",
+					 "id": "E14000653",
+					 "majority": "7.26",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Coventry South",
+					 "id": "E14000651",
+					 "majority": "7.3",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Erewash",
+					 "id": "E14000695",
+					 "majority": "7.42",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Hendon",
+					 "id": "E14000741",
+					 "majority": "7.5",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ipswich",
+					 "id": "E14000761",
+					 "majority": "7.67",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Darlington",
+					 "id": "E14000658",
+					 "majority": "7.68",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Delyn",
+					 "id": "W07000042",
+					 "majority": "7.82",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Blackpool South",
+					 "id": "E14000573",
+					 "majority": "7.97",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Stroud",
+					 "id": "E14000980",
+					 "majority": "8",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Broxtowe",
+					 "id": "E14000607",
+					 "majority": "8.02",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Alyn and Deeside",
+					 "id": "W07000043",
+					 "majority": "8.09",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Northampton North",
+					 "id": "E14000861",
+					 "majority": "8.23",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Calder Valley",
+					 "id": "E14000614",
+					 "majority": "8.27",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Scunthorpe",
+					 "id": "E14000914",
+					 "majority": "8.48",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Blackpool North and Cleveleys",
+					 "id": "E14000572",
+					 "majority": "8.48",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bristol East",
+					 "id": "E14000599",
+					 "majority": "8.61",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Newport West",
+					 "id": "W07000056",
+					 "majority": "8.7",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Southampton, Test",
+					 "id": "E14000956",
+					 "majority": "8.73",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Chorley",
+					 "id": "E14000637",
+					 "majority": "8.76",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Pudsey",
+					 "id": "E14000886",
+					 "majority": "8.84",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bishop Auckland",
+					 "id": "E14000569",
+					 "majority": "8.91",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Sherwood",
+					 "id": "E14000924",
+					 "majority": "9.17",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Amber Valley",
+					 "id": "E14000533",
+					 "majority": "9.2",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Hastings and Rye",
+					 "id": "E14000735",
+					 "majority": "9.42",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Colne Valley",
+					 "id": "E14000645",
+					 "majority": "9.47",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bristol North West",
+					 "id": "E14000600",
+					 "majority": "9.54",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "High Peak",
+					 "id": "E14000748",
+					 "majority": "9.64",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Harrow East",
+					 "id": "E14000731",
+					 "majority": "9.71",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Stockton South",
+					 "id": "E14000971",
+					 "majority": "9.74",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Northampton South",
+					 "id": "E14000862",
+					 "majority": "9.75",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Coventry North West",
+					 "id": "E14000650",
+					 "majority": "9.97",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Bolton North East",
+					 "id": "E14000578",
+					 "majority": "10.14",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Norwich North",
+					 "id": "E14000863",
+					 "majority": "10.24",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Hyndburn",
+					 "id": "E14000758",
+					 "majority": "10.26",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Stevenage",
+					 "id": "E14000968",
+					 "majority": "10.37",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Enfield, Southgate",
+					 "id": "E14000692",
+					 "majority": "10.38",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bury South",
+					 "id": "E14000612",
+					 "majority": "10.42",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Cannock Chase",
+					 "id": "E14000618",
+					 "majority": "10.45",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Morecambe and Lunesdale",
+					 "id": "E14000825",
+					 "majority": "10.61",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Nuneaton",
+					 "id": "E14000868",
+					 "majority": "10.67",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Wirral South",
+					 "id": "E14001043",
+					 "majority": "10.99",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Dudley North",
+					 "id": "E14000671",
+					 "majority": "11",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Finchley and Golders Green",
+					 "id": "E14000703",
+					 "majority": "11.15",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Dudley South",
+					 "id": "E14000672",
+					 "majority": "11.18",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Mansfield",
+					 "id": "E14000810",
+					 "majority": "11.26",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Worcester",
+					 "id": "E14001052",
+					 "majority": "11.35",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South Ribble",
+					 "id": "E14000943",
+					 "majority": "11.35",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Rossendale and Darwen",
+					 "id": "E14000902",
+					 "majority": "11.53",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South Swindon",
+					 "id": "E14000947",
+					 "majority": "11.74",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Batley and Spen",
+					 "id": "E14000548",
+					 "majority": "12",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Workington",
+					 "id": "E14001053",
+					 "majority": "12.18",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Preseli Pembrokeshire",
+					 "id": "W07000065",
+					 "majority": "12.25",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Pendle",
+					 "id": "E14000875",
+					 "majority": "12.27",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Stoke-on-Trent North",
+					 "id": "E14000973",
+					 "majority": "12.51",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Dover",
+					 "id": "E14000670",
+					 "majority": "12.53",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Reading East",
+					 "id": "E14000889",
+					 "majority": "12.91",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Scarborough and Whitby",
+					 "id": "E14000913",
+					 "majority": "12.99",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Warwick and Leamington",
+					 "id": "E14001019",
+					 "majority": "13.06",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Aberconwy",
+					 "id": "W07000058",
+					 "majority": "13.26",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Exeter",
+					 "id": "E14000698",
+					 "majority": "13.3",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Newport East",
+					 "id": "W07000055",
+					 "majority": "13.4",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Vale of Glamorgan",
+					 "id": "W07000078",
+					 "majority": "13.41",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ellesmere Port and Neston",
+					 "id": "E14000688",
+					 "majority": "13.43",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Crawley",
+					 "id": "E14000652",
+					 "majority": "13.44",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Great Grimsby",
+					 "id": "E14000716",
+					 "majority": "13.46",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Oldham East and Saddleworth",
+					 "id": "E14000870",
+					 "majority": "13.49",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Luton South",
+					 "id": "E14000801",
+					 "majority": "13.53",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hammersmith",
+					 "id": "E14000726",
+					 "majority": "13.59",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Reading West",
+					 "id": "E14000890",
+					 "majority": "13.74",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Gloucester",
+					 "id": "E14000712",
+					 "majority": "13.79",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Great Yarmouth",
+					 "id": "E14000717",
+					 "majority": "13.84",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bristol South",
+					 "id": "E14000601",
+					 "majority": "14.02",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "York Central",
+					 "id": "E14001061",
+					 "majority": "14.09",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Worsley and Eccles South",
+					 "id": "E14001054",
+					 "majority": "14.14",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Penistone and Stocksbridge",
+					 "id": "E14000876",
+					 "majority": "14.35",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Walsall South",
+					 "id": "E14001012",
+					 "majority": "14.36",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Chipping Barnet",
+					 "id": "E14000636",
+					 "majority": "14.44",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Stourbridge",
+					 "id": "E14000976",
+					 "majority": "14.54",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Elmet and Rothwell",
+					 "id": "E14000689",
+					 "majority": "14.69",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Milton Keynes South",
+					 "id": "E14000822",
+					 "majority": "14.71",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Birmingham, Erdington",
+					 "id": "E14000561",
+					 "majority": "14.79",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Carmarthen West and Pembrokeshire South",
+					 "id": "W07000066",
+					 "majority": "15",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Leeds North East",
+					 "id": "E14000779",
+					 "majority": "15.01",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Slough",
+					 "id": "E14000930",
+					 "majority": "15.2",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Camborne and Redruth",
+					 "id": "E14000616",
+					 "majority": "15.27",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Tynemouth",
+					 "id": "E14001006",
+					 "majority": "15.4",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Cardiff West",
+					 "id": "W07000079",
+					 "majority": "15.5",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Battersea",
+					 "id": "E14000549",
+					 "majority": "15.56",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Norwich South",
+					 "id": "E14000864",
+					 "majority": "15.79",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Nottingham South",
+					 "id": "E14000867",
+					 "majority": "15.96",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Cardiff South and Penarth",
+					 "id": "W07000080",
+					 "majority": "15.97",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Redditch",
+					 "id": "E14000892",
+					 "majority": "16",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Wolverhampton North East",
+					 "id": "E14001049",
+					 "majority": "16.16",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Stalybridge and Hyde",
+					 "id": "E14000967",
+					 "majority": "16.29",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Gravesham",
+					 "id": "E14000715",
+					 "majority": "16.69",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "West Lancashire",
+					 "id": "E14001033",
+					 "majority": "16.83",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Milton Keynes North",
+					 "id": "E14000821",
+					 "majority": "16.91",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bradford South",
+					 "id": "E14000588",
+					 "majority": "17.15",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Watford",
+					 "id": "E14001021",
+					 "majority": "17.44",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Cleethorpes",
+					 "id": "E14000643",
+					 "majority": "17.51",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Loughborough",
+					 "id": "E14000797",
+					 "majority": "17.65",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Sedgefield",
+					 "id": "E14000915",
+					 "majority": "17.67",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Shrewsbury and Atcham",
+					 "id": "E14000926",
+					 "majority": "17.68",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Clwyd West",
+					 "id": "W07000059",
+					 "majority": "17.7",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bassetlaw",
+					 "id": "E14000546",
+					 "majority": "17.94",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Huddersfield",
+					 "id": "E14000756",
+					 "majority": "18.15",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Canterbury",
+					 "id": "E14000619",
+					 "majority": "18.33",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ashfield",
+					 "id": "E14000535",
+					 "majority": "18.6",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Birmingham, Selly Oak",
+					 "id": "E14000567",
+					 "majority": "18.65",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Kingswood",
+					 "id": "E14000774",
+					 "majority": "18.71",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Stafford",
+					 "id": "E14000965",
+					 "majority": "18.82",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Harlow",
+					 "id": "E14000729",
+					 "majority": "18.87",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Shipley",
+					 "id": "E14000925",
+					 "majority": "19.04",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Chingford and Woodford Green",
+					 "id": "E14000634",
+					 "majority": "19.14",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Warrington North",
+					 "id": "E14001017",
+					 "majority": "19.65",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Swansea West",
+					 "id": "W07000047",
+					 "majority": "20.01",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Filton and Bradley Stoke",
+					 "id": "E14000702",
+					 "majority": "20.04",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Brent North",
+					 "id": "E14000592",
+					 "majority": "20.74",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Basingstoke",
+					 "id": "E14000545",
+					 "majority": "20.84",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Leicester West",
+					 "id": "E14000784",
+					 "majority": "20.86",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Don Valley",
+					 "id": "E14000667",
+					 "majority": "20.91",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Bexleyheath and Crayford",
+					 "id": "E14000558",
+					 "majority": "21.04",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Rugby",
+					 "id": "E14000905",
+					 "majority": "21.11",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Stockton North",
+					 "id": "E14000970",
+					 "majority": "21.14",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Kensington",
+					 "id": "E14000768",
+					 "majority": "21.14",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Torfaen",
+					 "id": "W07000053",
+					 "majority": "21.53",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Derby South",
+					 "id": "E14000663",
+					 "majority": "21.63",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Rochford and Southend East",
+					 "id": "E14000899",
+					 "majority": "21.73",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North West Leicestershire",
+					 "id": "E14000858",
+					 "majority": "22.06",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Forest of Dean",
+					 "id": "E14000705",
+					 "majority": "22.19",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Burton",
+					 "id": "E14000610",
+					 "majority": "22.24",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Luton North",
+					 "id": "E14000800",
+					 "majority": "22.33",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Erith and Thamesmead",
+					 "id": "E14000696",
+					 "majority": "22.35",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Gillingham and Rainham",
+					 "id": "E14000711",
+					 "majority": "22.37",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North Swindon",
+					 "id": "E14000851",
+					 "majority": "22.56",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South Derbyshire",
+					 "id": "E14000935",
+					 "majority": "22.6",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Newcastle upon Tyne North",
+					 "id": "E14000833",
+					 "majority": "22.62",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Monmouth",
+					 "id": "W07000054",
+					 "majority": "23.14",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Beverley and Holderness",
+					 "id": "E14000556",
+					 "majority": "23.17",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Feltham and Heston",
+					 "id": "E14000701",
+					 "majority": "23.2",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Portsmouth North",
+					 "id": "E14000883",
+					 "majority": "23.21",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "St Albans",
+					 "id": "E14000960",
+					 "majority": "23.39",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North West Durham",
+					 "id": "E14000856",
+					 "majority": "23.49",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Dartford",
+					 "id": "E14000659",
+					 "majority": "23.55",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "The Wrekin",
+					 "id": "E14000992",
+					 "majority": "23.64",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Pontypridd",
+					 "id": "W07000075",
+					 "majority": "23.72",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Putney",
+					 "id": "E14000887",
+					 "majority": "23.78",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Uxbridge and South Ruislip",
+					 "id": "E14001007",
+					 "majority": "23.87",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Staffordshire Moorlands",
+					 "id": "E14000966",
+					 "majority": "23.89",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Tamworth",
+					 "id": "E14000986",
+					 "majority": "23.96",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Welwyn Hatfield",
+					 "id": "E14001027",
+					 "majority": "24.21",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "York Outer",
+					 "id": "E14001062",
+					 "majority": "24.36",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Wythenshawe and Sale East",
+					 "id": "E14001059",
+					 "majority": "24.43",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "South Dorset",
+					 "id": "E14000936",
+					 "majority": "24.68",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North East Somerset",
+					 "id": "E14000846",
+					 "majority": "24.94",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "City of Durham",
+					 "id": "E14000641",
+					 "majority": "25.05",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Rushcliffe",
+					 "id": "E14000908",
+					 "majority": "25.07",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Stretford and Urmston",
+					 "id": "E14000979",
+					 "majority": "25.19",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "West Bromwich East",
+					 "id": "E14001029",
+					 "majority": "25.26",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Stockport",
+					 "id": "E14000969",
+					 "majority": "25.38",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Ealing North",
+					 "id": "E14000675",
+					 "majority": "25.41",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Greenwich and Woolwich",
+					 "id": "E14000718",
+					 "majority": "25.57",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Selby and Ainsty",
+					 "id": "E14000917",
+					 "majority": "25.67",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Brigg and Goole",
+					 "id": "E14000596",
+					 "majority": "25.83",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Wyre Forest",
+					 "id": "E14001058",
+					 "majority": "26.03",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ribble Valley",
+					 "id": "E14000894",
+					 "majority": "26.04",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Wimbledon",
+					 "id": "E14001040",
+					 "majority": "26.06",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Altrincham and Sale West",
+					 "id": "E14000532",
+					 "majority": "26.31",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Lewisham West and Penge",
+					 "id": "E14000788",
+					 "majority": "26.42",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Vauxhall",
+					 "id": "E14001008",
+					 "majority": "26.51",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Chatham and Aylesford",
+					 "id": "E14000626",
+					 "majority": "26.59",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Kettering",
+					 "id": "E14000769",
+					 "majority": "26.66",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Cities of London and Westminster",
+					 "id": "E14000639",
+					 "majority": "26.73",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Mid Derbyshire",
+					 "id": "E14000814",
+					 "majority": "26.76",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Sunderland Central",
+					 "id": "E14000982",
+					 "majority": "26.77",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Bolsover",
+					 "id": "E14000577",
+					 "majority": "26.77",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Denton and Reddish",
+					 "id": "E14000661",
+					 "majority": "27.17",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Eddisbury",
+					 "id": "E14000686",
+					 "majority": "27.4",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ashton-under-Lyne",
+					 "id": "E14000537",
+					 "majority": "27.64",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hexham",
+					 "id": "E14000746",
+					 "majority": "27.76",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bradford West",
+					 "id": "E14000589",
+					 "majority": "27.85",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Streatham",
+					 "id": "E14000978",
+					 "majority": "27.91",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Leeds West",
+					 "id": "E14000781",
+					 "majority": "27.92",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wansbeck",
+					 "id": "E14001014",
+					 "majority": "28.24",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wyre and Preston North",
+					 "id": "E14001057",
+					 "majority": "28.36",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Hemsworth",
+					 "id": "E14000740",
+					 "majority": "28.48",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Islington South and Finsbury",
+					 "id": "E14000764",
+					 "majority": "28.71",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wycombe",
+					 "id": "E14001056",
+					 "majority": "28.88",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Salford and Eccles",
+					 "id": "E14000911",
+					 "majority": "28.99",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Blackburn",
+					 "id": "E14000570",
+					 "majority": "29",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Basildon and Billericay",
+					 "id": "E14000544",
+					 "majority": "29.01",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Hemel Hempstead",
+					 "id": "E14000739",
+					 "majority": "29.05",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Coventry North East",
+					 "id": "E14000649",
+					 "majority": "29.06",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "North West Norfolk",
+					 "id": "E14000859",
+					 "majority": "29.44",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Derbyshire Dales",
+					 "id": "E14000664",
+					 "majority": "29.65",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Aldridge-Brownhills",
+					 "id": "E14000531",
+					 "majority": "29.68",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Weston-Super-Mare",
+					 "id": "E14001038",
+					 "majority": "29.7",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Croydon South",
+					 "id": "E14000656",
+					 "majority": "29.7",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Chesterfield",
+					 "id": "E14000632",
+					 "majority": "29.84",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Macclesfield",
+					 "id": "E14000802",
+					 "majority": "29.86",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "East Yorkshire",
+					 "id": "E14000683",
+					 "majority": "29.87",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "East Worthing and Shoreham",
+					 "id": "E14000682",
+					 "majority": "29.96",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Oxford East",
+					 "id": "E14000873",
+					 "majority": "30.14",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Fylde",
+					 "id": "E14000706",
+					 "majority": "30.36",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bromley and Chislehurst",
+					 "id": "E14000604",
+					 "majority": "30.78",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Wolverhampton South East",
+					 "id": "E14001050",
+					 "majority": "31",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Holborn and St Pancras",
+					 "id": "E14000750",
+					 "majority": "31.04",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "South Leicestershire",
+					 "id": "E14000940",
+					 "majority": "31.2",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Leigh",
+					 "id": "E14000785",
+					 "majority": "31.24",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Harwich and North Essex",
+					 "id": "E14000734",
+					 "majority": "31.33",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Gainsborough",
+					 "id": "E14000707",
+					 "majority": "31.36",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North Shropshire",
+					 "id": "E14000849",
+					 "majority": "31.37",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Dulwich and West Norwood",
+					 "id": "E14000673",
+					 "majority": "31.39",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wigan",
+					 "id": "E14001039",
+					 "majority": "31.43",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Southend West",
+					 "id": "E14000957",
+					 "majority": "31.5",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bromsgrove",
+					 "id": "E14000605",
+					 "majority": "31.64",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Banbury",
+					 "id": "E14000539",
+					 "majority": "31.71",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Broadland",
+					 "id": "E14000603",
+					 "majority": "31.72",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Newcastle upon Tyne East",
+					 "id": "E14000832",
+					 "majority": "31.85",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Aldershot",
+					 "id": "E14000530",
+					 "majority": "32.26",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Sutton Coldfield",
+					 "id": "E14000985",
+					 "majority": "32.28",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Charnwood",
+					 "id": "E14000625",
+					 "majority": "32.4",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bournemouth East",
+					 "id": "E14000584",
+					 "majority": "32.6",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Leeds East",
+					 "id": "E14000778",
+					 "majority": "32.81",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Congleton",
+					 "id": "E14000646",
+					 "majority": "32.9",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Poplar and Limehouse",
+					 "id": "E14000882",
+					 "majority": "33.16",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Haltemprice and Howden",
+					 "id": "E14000724",
+					 "majority": "33.22",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Lewisham East",
+					 "id": "E14000787",
+					 "majority": "33.39",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "South Cambridgeshire",
+					 "id": "E14000934",
+					 "majority": "33.46",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Nottingham North",
+					 "id": "E14000866",
+					 "majority": "33.56",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Nottingham East",
+					 "id": "E14000865",
+					 "majority": "33.78",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Old Bexley and Sidcup",
+					 "id": "E14000869",
+					 "majority": "33.8",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South Suffolk",
+					 "id": "E14000946",
+					 "majority": "33.8",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Suffolk Coastal",
+					 "id": "E14000981",
+					 "majority": "33.89",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Chelmsford",
+					 "id": "E14000628",
+					 "majority": "33.91",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North Durham",
+					 "id": "E14000840",
+					 "majority": "33.99",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Stone",
+					 "id": "E14000975",
+					 "majority": "34.55",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Huntingdon",
+					 "id": "E14000757",
+					 "majority": "34.69",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South West Bedfordshire",
+					 "id": "E14000949",
+					 "majority": "34.72",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Hayes and Harlington",
+					 "id": "E14000737",
+					 "majority": "34.85",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Newark",
+					 "id": "E14000829",
+					 "majority": "35.32",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Lichfield",
+					 "id": "E14000791",
+					 "majority": "35.34",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Meriden",
+					 "id": "E14000812",
+					 "majority": "35.73",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South Norfolk",
+					 "id": "E14000941",
+					 "majority": "35.88",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bury St Edmunds",
+					 "id": "E14000613",
+					 "majority": "35.9",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Birmingham, Perry Barr",
+					 "id": "E14000566",
+					 "majority": "35.94",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Preston",
+					 "id": "E14000885",
+					 "majority": "36.05",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Newcastle upon Tyne Central",
+					 "id": "E14000831",
+					 "majority": "36.12",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hitchin and Harpenden",
+					 "id": "E14000749",
+					 "majority": "36.22",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North East Hertfordshire",
+					 "id": "E14000845",
+					 "majority": "36.49",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Leyton and Wanstead",
+					 "id": "E14000790",
+					 "majority": "36.65",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "North Tyneside",
+					 "id": "E14000853",
+					 "majority": "36.73",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hertsmere",
+					 "id": "E14000745",
+					 "majority": "36.85",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ogmore",
+					 "id": "W07000074",
+					 "majority": "37",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Thirsk and Malton",
+					 "id": "E14000993",
+					 "majority": "37.15",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Central Suffolk and North Ipswich",
+					 "id": "E14000624",
+					 "majority": "37.24",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Wantage",
+					 "id": "E14001015",
+					 "majority": "37.29",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Edmonton",
+					 "id": "E14000687",
+					 "majority": "37.3",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "St Helens North",
+					 "id": "E14000962",
+					 "majority": "37.38",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Harborough",
+					 "id": "E14000728",
+					 "majority": "37.41",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Mitcham and Morden",
+					 "id": "E14000823",
+					 "majority": "37.49",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Leeds Central",
+					 "id": "E14000777",
+					 "majority": "37.66",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wallasey",
+					 "id": "E14001010",
+					 "majority": "37.7",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Beckenham",
+					 "id": "E14000551",
+					 "majority": "37.85",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Skipton and Ripon",
+					 "id": "E14000928",
+					 "majority": "38.05",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ilford South",
+					 "id": "E14000760",
+					 "majority": "38.1",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Leicester East",
+					 "id": "E14000782",
+					 "majority": "38.18",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hertford and Stortford",
+					 "id": "E14000744",
+					 "majority": "38.22",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Leicester South",
+					 "id": "E14000783",
+					 "majority": "38.84",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Warley",
+					 "id": "E14001016",
+					 "majority": "38.86",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Bracknell",
+					 "id": "E14000586",
+					 "majority": "38.9",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Sleaford and North Hykeham",
+					 "id": "E14000929",
+					 "majority": "38.93",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North Somerset",
+					 "id": "E14000850",
+					 "majority": "39.19",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ruislip, Northwood and Pinner",
+					 "id": "E14000906",
+					 "majority": "39.48",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Tewkesbury",
+					 "id": "E14000990",
+					 "majority": "39.7",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Chelsea and Fulham",
+					 "id": "E14000629",
+					 "majority": "39.83",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Croydon North",
+					 "id": "E14000655",
+					 "majority": "39.92",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "South West Devon",
+					 "id": "E14000950",
+					 "majority": "39.92",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Woking",
+					 "id": "E14001047",
+					 "majority": "40.05",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Daventry",
+					 "id": "E14000660",
+					 "majority": "40.1",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Mid Bedfordshire",
+					 "id": "E14000813",
+					 "majority": "40.18",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Salisbury",
+					 "id": "E14000912",
+					 "majority": "40.27",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Tatton",
+					 "id": "E14000987",
+					 "majority": "40.27",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South West Hertfordshire",
+					 "id": "E14000951",
+					 "majority": "40.62",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "South Staffordshire",
+					 "id": "E14000945",
+					 "majority": "41.07",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Brent Central",
+					 "id": "E14000591",
+					 "majority": "41.78",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Birmingham, Hall Green",
+					 "id": "E14000562",
+					 "majority": "42.12",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Mid Sussex",
+					 "id": "E14000817",
+					 "majority": "42.24",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Epsom and Ewell",
+					 "id": "E14000694",
+					 "majority": "42.78",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Witney",
+					 "id": "E14001046",
+					 "majority": "43.01",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Kenilworth and Southam",
+					 "id": "E14000767",
+					 "majority": "43.04",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Islington North",
+					 "id": "E14000763",
+					 "majority": "43.05",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Wokingham",
+					 "id": "E14001048",
+					 "majority": "43.21",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Ealing, Southall",
+					 "id": "E14000676",
+					 "majority": "43.3",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "South Northamptonshire",
+					 "id": "E14000942",
+					 "majority": "43.4",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "North East Bedfordshire",
+					 "id": "E14000841",
+					 "majority": "43.71",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "St Helens South and Whiston",
+					 "id": "E14000963",
+					 "majority": "43.89",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Runnymede and Weybridge",
+					 "id": "E14000907",
+					 "majority": "44.22",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Tunbridge Wells",
+					 "id": "E14001004",
+					 "majority": "44.48",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Halton",
+					 "id": "E14000725",
+					 "majority": "45.05",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Penrith and The Border",
+					 "id": "E14000877",
+					 "majority": "45.29",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Lewisham, Deptford",
+					 "id": "E14000789",
+					 "majority": "45.37",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Henley",
+					 "id": "E14000742",
+					 "majority": "45.94",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Bethnal Green and Bow",
+					 "id": "E14000555",
+					 "majority": "45.95",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Manchester Central",
+					 "id": "E14000807",
+					 "majority": "47.74",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Hackney North and Stoke Newington",
+					 "id": "E14000720",
+					 "majority": "48.12",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "South West Surrey",
+					 "id": "E14000953",
+					 "majority": "49.99",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Windsor",
+					 "id": "E14001042",
+					 "majority": "50.01",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Camberwell and Peckham",
+					 "id": "E14000615",
+					 "majority": "50.08",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Esher and Walton",
+					 "id": "E14000697",
+					 "majority": "50.22",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Hackney South and Shoreditch",
+					 "id": "E14000721",
+					 "majority": "50.89",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Birkenhead",
+					 "id": "E14000559",
+					 "majority": "52.76",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "West Ham",
+					 "id": "E14001032",
+					 "majority": "53.01",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Maidenhead",
+					 "id": "E14000803",
+					 "majority": "53.96",
+					 "winner": "Conservative"
+					},
+					{
+					 "name": "Tottenham",
+					 "id": "E14001002",
+					 "majority": "55.37",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Garston and Halewood",
+					 "id": "E14000708",
+					 "majority": "55.42",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Walthamstow",
+					 "id": "E14001013",
+					 "majority": "55.5",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Birmingham, Hodge Hill",
+					 "id": "E14000563",
+					 "majority": "56.93",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Manchester, Gorton",
+					 "id": "E14000808",
+					 "majority": "57.31",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Liverpool, Wavertree",
+					 "id": "E14000795",
+					 "majority": "59.31",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "Birmingham, Ladywood",
+					 "id": "E14000564",
+					 "majority": "60.89",
+					 "winner": "Labour"
+					},
+					{
+					 "name": "East Ham",
+					 "id": "E14000679",
+					 "majority": "65.5",
+					 "winner": "Labour"
+					}];
+
+
+					// SVG initialisation
+					var svgContainer = d3.select("#graph").append("svg")
+					.attr("width", 600)
+					.attr("height", 350)
+					.style("border", "0px solid black");
+
+
+
+
+					// The div for the tooltip
+					var div = d3.select("body").append("div")
+					.attr("class", "tooltip")
+					.style("opacity", 0);
+
+					function paint_constituencies () {
+
+						// Clear canvas each time you repaint
+						svgContainer.selectAll("*").remove();
+
+						// This is used to check if there is a swing
+						var swing = d3.select('#slidervalue').node().innerHTML;
+
+						// Create one marker per constituency
+						var rectangles = svgContainer.selectAll("rect")
+						.data(myconstituencies)
+						.enter()
+						.append("rect");
+
+
+						// Stack level counters
+						var stackLab = {};
+						var stackCon = {};
+						for (i = 0; i<67; i=i+2) {
+							stackLab[i] = 0;
+							stackCon[i] = 0;
+						}
+
+						var seats_gained = 0;
+
+						var winners_object = {};
+
+						// Create the actual markers via function with data
+						rectangles
+						.attr("x", function (d) {
+							var pot = Math.round(d['majority'] / 2)*2;
+							if (d['winner'] === "Conservative")
+								val = 300 + (pot+2)*4;
+							else
+								val = 300 - (pot+2)*4;
+							return val;
+						})
+						.attr("y", function (d) {
+							// Round majority to create stacking
+							var pot = Math.round(d['majority'] / 2)*2;
+							if (d['winner'] === 'Labour')
+								val = 310 - (stackLab[pot]++)*15;
+							else
+								val = 310 - (stackCon[pot]++)*15;
+							return val;
+						})
+						// .attr("r", 5 )
+						.attr("width", 6)
+						.attr("height", 14)
+						.style("fill", function(d) {
+							var returnColor;
+							var cid = d['id'];
+							if (d['winner'] === "Labour")
+							{
+								if (swing*2 > +d['majority']) {
+									seats_gained++;
+									returnColor = "#0000ff";
+									winners_object[cid] = "CON";
+								} else {
+									returnColor = "#f08080";
+									winners_object[cid] = "LABhold";
+								}
+							} else if (d['winner'] === "Conservative")
+							{
+								if (-swing*2 > +d['majority']) {
+									seats_gained++;
+									returnColor = "#ff0000";
+									winners_object[cid] = "LAB";
+								} else {
+									returnColor = "#87cefa";
+									winners_object[cid] = "CONhold";
+								}
+							}
+							d3.select('#seats').node().innerHTML = seats_gained + " seats gained";
+							return returnColor;
+						})
+						.on("mouseover", function(d) {
+							div.transition()
+							.duration(200)
+							.style("opacity", .9);
+							div.html(d['name'] + "<br/>" + d['majority'] +"%")
+							.style("left", (d3.event.pageX) + "px")
+							.style("top", (d3.event.pageY - 28) + "px");
+						})
+						.on("mouseout", function(d) {
+							div.transition()
+							.duration(500)
+							.style("opacity", 0);
+						});
+
+						// Let's append a marker to split the two
+						var xbar = 304;
+						svgContainer.append("line")
+    					.style("stroke", "black")
+    					.attr("x1", xbar)     // x position of the first end of the line
+    					.attr("y1", 350)      // y position of the first end of the line
+    					.attr("x2", xbar)     // x position of the second end of the line
+    					.attr("y2", 50);
+
+							add_labels();
+							do_hex(winners_object);
+
+				}
+
+
+				function do_hex(winners) {
+					d3
+						.select("#vis").selectAll("*").remove();
+				d3.json("maps/constituencies.hexjson", function(error, hexjson) {
+
+					// Set the size and margins of the svg
+					var margin = {top: 10, right: 10, bottom: 10, left: 10},
+						width = 300 - margin.left - margin.right,
+						height = 500 - margin.top - margin.bottom;
+
+					// Create the svg element
+					var svg = d3
+						.select("#vis")
+						.append("svg")
+						.attr("width", width + margin.left + margin.right)
+						.attr("height", height + margin.top + margin.bottom)
+						.append("g")
+						.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+					// Render the hexes
+					var hexes = d3.renderHexJSON(hexjson, width, height);
+
+					// Bind the hexes to g elements of the svg and position them
+					var hexmap = svg
+						.selectAll("g")
+						.data(hexes)
+						.enter()
+						.append("g")
+						.attr("transform", function(hex) {
+							return "translate(" + hex.x + "," + hex.y + ")";
+						});
+
+					// Draw the polygons around each hex's centre
+					hexmap
+						.append("polygon")
+						.attr("points", function(hex) {return hex.points;})
+						.attr("stroke", "white")
+						.attr("stroke-width", "2")
+						.attr("fill", function(hex) {
+							var party = winners[hex.key];
+							var colour = "#000000";
+							if (party === "LAB")
+								colour = "#ff0000";
+							else if (party === "CON")
+								colour = "#0000ff";
+							else if (party === "LABhold")
+								colour = "#f08080"
+							else if (party === "CONhold")
+								colour = "#87cefa";
+							//return hex['p'];
+							return colour;
+						});
+
+				});
+				}
+
+				function add_labels() {
+
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 600)
+								.attr("y", 100 )
+								.text("Labour/Conservative Swing by @puntofisso");
+
+								// val = 300 + (pot+2)*4;
+
+
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (1+2) * 4)
+								.attr("y", 340 )
+								.text("0");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (12+2) * 4)
+								.attr("y", 340 )
+								.text("10");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (22+2) * 4)
+								.attr("y", 340 )
+								.text("20");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (32+2) * 4)
+								.attr("y", 340 )
+								.text("30");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (42+2) * 4)
+								.attr("y", 340 )
+								.text("40");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (52+2) * 4)
+								.attr("y", 340 )
+								.text("50");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (62+2) * 4)
+								.attr("y", 340 )
+								.text("60");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 + (72+2) * 4)
+								.attr("y", 340 )
+								.text("70");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300)
+								.attr("y", 340 )
+								.text("0");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 - (10) * 4)
+								.attr("y", 340 )
+								.text("10");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 - (20) * 4)
+								.attr("y", 340 )
+								.text("20");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 - (30) * 4)
+								.attr("y", 340 )
+								.text("30");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 - (40) * 4)
+								.attr("y", 340 )
+								.text("40");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 - (50) * 4)
+								.attr("y", 340 )
+								.text("50");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 - (60) * 4)
+								.attr("y", 340 )
+								.text("60");
+
+								svgContainer.append("text")
+								.attr("class", "x label")
+								.attr("text-anchor", "end")
+								.attr("x", 300 - (70) * 4)
+								.attr("y", 340 )
+								.text("70");
+}
+
+
+							paint_constituencies();
+
+					</script>
+				</div>
+			</div>
+		</div>
+
+
+		<footer class="footer">
+			<div class="container-fluid">
+				<nav class="pull-left">
+
+				</nav>
+				<div class="copyright pull-right">
+					&copy; <script>document.write(new Date().getFullYear())</script> made<!--i class="fa fa-heart heart"></i--> by <a href="http://puntofisso.net">Giuseppe Sollazzo</a>, based on a design by <a href="http://www.creative-tim.com">Creative Tim</a> and inspired by <a href="http://www.bbc.co.uk/news/uk-politics-39927866">this BBC article</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+</div>
+
+
+</body>
+
+<!--   Core JS Files   -->
+
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99388198-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</html>

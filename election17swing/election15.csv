@@ -1,0 +1,633 @@
+"","pano","ConstituencyName","Winner15","Majority15"
+"1",1,"Aberavon","Labour",33.134536687498
+"2",2,"Aberconwy","Conservative",13.2645614966167
+"3",3,"Aberdeen North","Scottish National Party",30.4898033503278
+"4",4,"Aberdeen South","Scottish National Party",14.8915573314659
+"5",5,"West Aberdeenshire and Kincardine","Scottish National Party",12.7418653525618
+"6",6,"Airdrie and Shotts","Scottish National Party",19.8234204940613
+"7",7,"Aldershot","Conservative",32.2595310774826
+"8",8,"Aldridge-Brownhills","Conservative",29.6807352457149
+"9",9,"Altrincham and Sale West","Conservative",26.3079755329889
+"10",10,"Alyn and Deeside","Labour",8.09168804763518
+"11",11,"Amber Valley","Conservative",9.1978913751996
+"12",12,"Angus","Scottish National Party",25.2444644262111
+"13",16,"Arfon","Plaid Cymru",13.6676975816969
+"14",17,"Argyll and Bute","Scottish National Party",16.3309754640248
+"15",18,"Arundel and South Downs","Conservative",46.3498415284098
+"16",19,"Ashfield","Labour",18.6040625197747
+"17",20,"Ashford","Conservative",33.6331311441121
+"18",21,"Ashton-under-Lyne","Labour",27.637596998818
+"19",22,"Aylesbury","Conservative",30.9605009112398
+"20",23,"Ayr, Carrick and Cumnock","Scottish National Party",21.5767396425904
+"21",24,"Central Ayrshire","Scottish National Party",26.7636979556466
+"22",25,"North Ayrshire and Arran","Scottish National Party",25.1963095657985
+"23",26,"Banbury","Conservative",31.7111432905806
+"24",27,"Banff and Buchan","Scottish National Party",31.4251901203182
+"25",28,"Barking","Labour",35.4824469691689
+"26",29,"Barnsley Central","Labour",34.0125820568928
+"27",30,"Barnsley East","Labour",31.2433470934912
+"28",31,"Barrow and Furness","Labour",1.8370883882149
+"29",32,"Basildon and Billericay","Conservative",29.009017384029
+"30",33,"South Basildon and East Thurrock","Conservative",16.8688175816463
+"31",34,"Basingstoke","Conservative",20.8436958323913
+"32",35,"Bassetlaw","Labour",17.9411227657287
+"33",36,"Bath","Conservative",8.12644433608243
+"34",37,"Batley and Spen","Labour",11.9990491095307
+"35",38,"Battersea","Conservative",15.5552507299485
+"36",39,"Beaconsfield","Conservative",49.4911874800143
+"37",40,"Beckenham","Conservative",37.8480831096449
+"38",41,"Bedford","Conservative",2.38033242199366
+"39",42,"Mid Bedfordshire","Conservative",40.1774026868756
+"40",43,"North East Bedfordshire","Conservative",43.7073902372512
+"41",44,"South West Bedfordshire","Conservative",34.7204896304382
+"42",49,"Bermondsey and Old Southwark","Labour",8.72938705662725
+"43",50,"Berwick-upon-Tweed","Conservative",12.1564455879079
+"44",51,"Berwickshire, Roxburgh and Selkirk","Scottish National Party",0.595951887786619
+"45",52,"Bethnal Green and Bow","Labour",45.9470183659587
+"46",53,"Beverley and Holderness","Conservative",23.1657079940012
+"47",54,"Bexhill and Battle","Conservative",36.3558984389148
+"48",55,"Bexleyheath and Crayford","Conservative",21.0415474419137
+"49",56,"Birkenhead","Labour",52.7590435315757
+"50",57,"Birmingham, Edgbaston","Labour",6.55316881795946
+"51",58,"Birmingham, Erdington","Labour",14.7877984084881
+"52",59,"Birmingham, Hall Green","Labour",42.1247289886494
+"53",60,"Birmingham, Hodge Hill","Labour",56.9263383610712
+"54",61,"Birmingham, Ladywood","Labour",60.8865129747188
+"55",62,"Birmingham, Northfield","Labour",5.90895174395327
+"56",63,"Birmingham, Perry Barr","Labour",35.9379544352884
+"57",64,"Birmingham, Selly Oak","Labour",18.6492692188811
+"58",65,"Birmingham, Yardley","Labour",16.0263420086997
+"59",66,"Bishop Auckland","Labour",8.90603975729265
+"60",67,"Blackburn","Labour",29.0006591058888
+"61",68,"Blackley and Broughton","Labour",45.4677732269886
+"62",69,"Blackpool North and Cleveleys","Conservative",8.47866372198106
+"63",70,"Blackpool South","Labour",7.96954001726477
+"64",71,"Blaenau Gwent","Labour",40.0940567496765
+"65",72,"Blaydon","Labour",31.6605839416058
+"66",73,"Blyth Valley","Labour",23.9957359403032
+"67",74,"Bognor Regis and Littlehampton","Conservative",29.5950420239409
+"68",75,"Bolsover","Labour",26.7693986090277
+"69",76,"Bolton North East","Labour",10.141099603809
+"70",77,"Bolton South East","Labour",26.8217853373586
+"71",78,"Bolton West","Conservative",1.64841949292065
+"72",79,"Bootle","Labour",63.5719347980156
+"73",80,"Boston and Skegness","Conservative",10.0048455202012
+"74",81,"Bosworth","Conservative",20.5068866410362
+"75",82,"Bournemouth East","Conservative",32.5964262609588
+"76",83,"Bournemouth West","Conservative",29.7081847126134
+"77",84,"Bracknell","Conservative",38.8991447839355
+"78",85,"Bradford East","Labour",17.1086315992851
+"79",86,"Bradford South","Labour",17.1542553191489
+"80",87,"Bradford West","Labour",27.8530652767436
+"81",88,"Braintree","Conservative",35.021776743631
+"82",89,"Brecon and Radnorshire","Conservative",12.7314468233768
+"83",90,"Brent Central","Labour",41.7779384249022
+"84",91,"Brent North","Labour",20.7408825500144
+"85",92,"Brentford and Isleworth","Labour",0.810740127277484
+"86",93,"Brentwood and Ongar","Conservative",42.0255506098618
+"87",94,"Bridgend","Labour",4.88429270270955
+"88",95,"Bridgwater and West Somerset","Conservative",26.7838448399361
+"89",96,"Brigg and Goole","Conservative",25.8285186041137
+"90",97,"Brighton, Kemptown","Conservative",1.52297708912727
+"91",98,"Brighton, Pavilion","Green",14.5712927061233
+"92",99,"Bristol East","Labour",8.61229524159869
+"93",100,"Bristol North West","Conservative",9.5434803590387
+"94",101,"Bristol South","Labour",14.0199048031155
+"95",102,"Bristol West","Labour",8.83397178361207
+"96",103,"Broadland","Conservative",31.7165514513364
+"97",104,"Bromley and Chislehurst","Conservative",30.7811010756592
+"98",105,"Bromsgrove","Conservative",31.6374772705522
+"99",106,"Broxbourne","Conservative",36.3353902311837
+"100",107,"Broxtowe","Conservative",8.02208083832335
+"101",108,"Buckingham",NA,42.7288981598748
+"102",109,"Burnley","Labour",8.16182760529362
+"103",110,"Burton","Conservative",22.2403724425205
+"104",111,"Bury North","Conservative",0.835728498783993
+"105",112,"Bury South","Labour",10.4246531822514
+"106",113,"Bury St Edmunds","Conservative",35.8959235604388
+"107",114,"Caerphilly","Labour",25.0055854827098
+"108",115,"Caithness, Sutherland and Easter Ross","Scottish National Party",11.2443690399579
+"109",116,"Calder Valley","Conservative",8.26842980146056
+"110",117,"Camberwell and Peckham","Labour",50.0843660906499
+"111",118,"Camborne and Redruth","Conservative",15.2699049446237
+"112",119,"Cambridge","Labour",1.15695136555028
+"113",120,"North East Cambridgeshire","Conservative",32.5878717651603
+"114",121,"North West Cambridgeshire","Conservative",32.3977086743044
+"115",122,"South Cambridgeshire","Conservative",33.4644133896653
+"116",123,"South East Cambridgeshire","Conservative",28.294625752025
+"117",124,"Cannock Chase","Conservative",10.4524512197711
+"118",125,"Canterbury","Conservative",18.3260076685682
+"119",126,"Cardiff Central","Labour",12.8887853852921
+"120",127,"Cardiff North","Conservative",4.17782643545581
+"121",128,"Cardiff South and Penarth","Labour",15.9706002099985
+"122",129,"Cardiff West","Labour",15.5028315674096
+"123",130,"Carlisle","Conservative",6.51372484561017
+"124",131,"Carmarthen East and Dinefwr","Plaid Cymru",14.2110205842788
+"125",132,"Carmarthen West and Pembrokeshire South","Conservative",15.003717472119
+"126",133,"Carshalton and Wallington","Liberal Democrat",3.17140276815155
+"127",134,"Castle Point","Conservative",19.6567656765677
+"128",135,"Ceredigion","Liberal Democrat",8.19702800940773
+"129",136,"Charnwood","Conservative",32.3970073286007
+"130",137,"Chatham and Aylesford","Conservative",26.5943862744643
+"131",138,"Cheadle","Conservative",12.1536867878331
+"132",139,"Chelmsford","Conservative",33.9112176449821
+"133",140,"Chelsea and Fulham","Conservative",39.8299607219211
+"134",141,"Cheltenham","Conservative",12.1261747464409
+"135",142,"Chesham and Amersham","Conservative",45.3631708704722
+"136",143,"City of Chester","Labour",0.181779089540868
+"137",144,"Chesterfield","Labour",29.8417714574144
+"138",145,"Chichester","Conservative",42.7256339802937
+"139",146,"Chingford and Woodford Green","Conservative",19.1443703771345
+"140",147,"Chippenham","Conservative",18.1854278340282
+"141",148,"Chipping Barnet","Conservative",14.4417407051101
+"142",149,"Chorley","Labour",8.76005569306931
+"143",150,"Christchurch","Conservative",36.662844267407
+"144",151,"Cities of London and Westminster","Conservative",26.7265441481277
+"145",152,"Clacton","ukip",7.77478679847083
+"146",153,"Cleethorpes","Conservative",17.5053782519018
+"147",154,"Clwyd South","Labour",6.85033082363678
+"148",155,"Clwyd West","Conservative",17.697486062901
+"149",156,"Coatbridge, Chryston and Bellshill","Scottish National Party",22.6853130300998
+"150",157,"Colchester","Conservative",11.4728458831519
+"151",158,"Colne Valley","Conservative",9.46830985915493
+"152",159,"Congleton","Conservative",32.9037193973635
+"153",160,"Copeland","Labour",6.46968282405188
+"154",161,"Corby","Conservative",4.2938014027842
+"155",162,"North Cornwall","Conservative",13.7237019380247
+"156",163,"South East Cornwall","Conservative",33.6547982098301
+"157",164,"The Cotswolds","Conservative",37.9003652919689
+"158",165,"Coventry North East","Labour",29.0639577561507
+"159",166,"Coventry North West","Labour",9.96552181408301
+"160",167,"Coventry South","Labour",7.29536144991877
+"161",168,"Crawley","Conservative",13.4418125643666
+"162",169,"Crewe and Nantwich","Conservative",7.25509058842393
+"163",170,"Croydon Central","Conservative",0.311667705559024
+"164",171,"Croydon North","Labour",39.9162961025373
+"165",172,"Croydon South","Conservative",29.6991960077627
+"166",173,"Cumbernauld, Kilsyth and Kirkintilloch East","Scottish National Party",29.8732331618808
+"167",174,"Cynon Valley","Labour",30.8676818062484
+"168",175,"Dagenham and Rainham","Labour",11.5679442508711
+"169",176,"Darlington","Labour",7.6760409324032
+"170",177,"Dartford","Conservative",23.5510702430463
+"171",178,"Daventry","Conservative",40.0986328496896
+"172",179,"Delyn","Labour",7.82230290733375
+"173",180,"Denton and Reddish","Labour",27.1735477366149
+"174",181,"Derby North","Conservative",0.0916303497597468
+"175",182,"Derby South","Labour",21.6266536011759
+"176",183,"Derbyshire Dales","Conservative",29.653090095226
+"177",184,"Mid Derbyshire","Conservative",26.76360284104
+"178",185,"North East Derbyshire","Labour",3.9271711020272
+"179",186,"South Derbyshire","Conservative",22.5976123872188
+"180",187,"Devizes","Conservative",42.3437946373913
+"181",188,"Central Devon","Conservative",39.0556126946812
+"182",189,"East Devon","Conservative",22.4080267558528
+"183",190,"North Devon","Conservative",13.256880733945
+"184",191,"South West Devon","Conservative",39.9209878503931
+"185",192,"Torridge and West Devon","Conservative",32.5233281493002
+"186",193,"Dewsbury","Labour",2.70557523774007
+"187",194,"Don Valley","Labour",20.9127712658287
+"188",195,"Doncaster Central","Labour",24.9703117268679
+"189",196,"Doncaster North","Labour",29.8220298220298
+"190",197,"Mid Dorset and North Poole","Conservative",22.6456482935117
+"191",198,"North Dorset","Conservative",39.557928257001
+"192",199,"South Dorset","Conservative",24.6805358355454
+"193",200,"West Dorset","Conservative",28.5699103758546
+"194",201,"Dover","Conservative",12.5318572793883
+"195",204,"Dudley North","Labour",11.0049484101916
+"196",205,"Dudley South","Conservative",11.175085056268
+"197",206,"Dulwich and West Norwood","Labour",31.3889646041821
+"198",207,"Dumfries and Galloway","Scottish National Party",11.5084272640543
+"199",208,"Dumfriesshire, Clydesdale and Tweeddale","Conservative",1.53067096328692
+"200",209,"East Dunbartonshire","Scottish National Party",3.94926281642397
+"201",210,"West Dunbartonshire","Scottish National Party",27.7096654347784
+"202",211,"Dundee East","Scottish National Party",39.7675625194563
+"203",212,"Dundee West","Scottish National Party",38.2251643780471
+"204",213,"Dunfermline and West Fife","Scottish National Party",18.5220969762033
+"205",214,"City of Durham","Labour",25.0476253038166
+"206",215,"North Durham","Labour",33.9859512778359
+"207",216,"North West Durham","Labour",23.4854500443739
+"208",217,"Dwyfor Meirionnydd","Plaid Cymru",18.1959672119808
+"209",218,"Ealing Central and Acton","Labour",0.538373875112981
+"210",219,"Ealing North","Labour",25.4091939806226
+"211",220,"Ealing, Southall","Labour",43.3046328570439
+"212",221,"Easington","Labour",42.2856977818854
+"213",222,"East Ham","Labour",65.5039204436795
+"214",223,"East Kilbride, Strathaven and Lesmahagow","Scottish National Party",27.2997571813211
+"215",224,"East Lothian","Scottish National Party",11.5277730707968
+"216",225,"Eastbourne","Conservative",1.38544994046157
+"217",226,"Eastleigh","Conservative",16.4795964327538
+"218",227,"Eddisbury","Conservative",27.3990538942389
+"219",228,"Edinburgh East","Scottish National Party",19.3378496039415
+"220",229,"Edinburgh North and Leith","Scottish National Party",9.64866914908288
+"221",230,"Edinburgh South","Labour",5.35040376577527
+"222",231,"Edinburgh South West","Scottish National Party",15.7648928336111
+"223",232,"Edinburgh West","Scottish National Party",5.85147107076452
+"224",233,"Edmonton","Labour",37.299820987953
+"225",234,"Ellesmere Port and Neston","Labour",13.429066706615
+"226",235,"Elmet and Rothwell","Conservative",14.6893437375642
+"227",236,"Eltham","Labour",6.24000741478787
+"228",237,"Enfield North","Labour",2.35385915859289
+"229",238,"Enfield, Southgate","Conservative",10.375010914171
+"230",239,"Epping Forest","Conservative",36.4310610359083
+"231",240,"Epsom and Ewell","Conservative",42.7751430621423
+"232",241,"Erewash","Conservative",7.41691155167418
+"233",242,"Erith and Thamesmead","Labour",22.3502358213858
+"234",243,"Esher and Walton","Conservative",50.2246559955069
+"235",244,"Exeter","Labour",13.2974193787256
+"236",245,"Falkirk","Scottish National Party",32.6499834272456
+"237",246,"Fareham","Conservative",40.6983546617916
+"238",247,"Faversham and Mid Kent","Conservative",36.3556972250726
+"239",248,"Feltham and Heston","Labour",23.2021050500961
+"240",250,"North East Fife","Scottish National Party",9.59724278107947
+"241",251,"Filton and Bradley Stoke","Conservative",20.0362518074988
+"242",252,"Finchley and Golders Green","Conservative",11.1546720778581
+"243",253,"Folkestone and Hythe","Conservative",25.0808943828395
+"244",254,"Forest of Dean","Conservative",22.1869951534733
+"245",256,"Fylde","Conservative",30.3602176458434
+"246",257,"Gainsborough","Conservative",31.3615233145896
+"247",258,"Garston and Halewood","Labour",55.4192270787824
+"248",259,"Gateshead","Labour",38.9575482884924
+"249",260,"Gedling","Labour",6.22109254552274
+"250",261,"Gillingham and Rainham","Conservative",22.3671353923276
+"251",262,"Glasgow Central","Scottish National Party",19.4872577445445
+"252",263,"Glasgow East","Scottish National Party",24.4878232784025
+"253",264,"Glasgow North","Scottish National Party",25.1746925952007
+"254",265,"Glasgow North East","Scottish National Party",24.3600919248752
+"255",266,"Glasgow North West","Scottish National Party",23.6329639257536
+"256",267,"Glasgow South","Scottish National Party",25.1527327893723
+"257",268,"Glasgow South West","Scottish National Party",24.3151438136898
+"258",269,"Glenrothes","Scottish National Party",29.1966048993655
+"259",270,"Gloucester","Conservative",13.7917261055635
+"260",271,"Gordon","Scottish National Party",14.936125582435
+"261",272,"Gosport","Conservative",35.8711843071436
+"262",273,"Gower","Conservative",0.0631460779269375
+"263",274,"Grantham and Stamford","Conservative",35.325086038508
+"264",275,"Gravesham","Conservative",16.693591814755
+"265",276,"Great Grimsby","Labour",13.4594290118882
+"266",277,"Great Yarmouth","Conservative",13.8388540331467
+"267",278,"Greenwich and Woolwich","Labour",25.5715386591318
+"268",279,"Guildford","Conservative",41.5811506686919
+"269",280,"Hackney North and Stoke Newington","Labour",48.1247619620342
+"270",281,"Hackney South and Shoreditch","Labour",50.8890290037831
+"271",282,"Halesowen and Rowley Regis","Conservative",7.03363914373089
+"272",283,"Halifax","Labour",0.978218636436353
+"273",284,"Haltemprice and Howden","Conservative",33.2157433804377
+"274",285,"Halton","Labour",45.0547497945495
+"275",286,"Hammersmith","Labour",13.5904920767306
+"276",287,"East Hampshire","Conservative",48.6882611473601
+"277",288,"North East Hampshire","Conservative",55.4
+"278",289,"North West Hampshire","Conservative",43.3789292508379
+"279",290,"Hampstead and Kilburn","Labour",2.10881328292936
+"280",291,"Harborough","Conservative",37.4149530216691
+"281",292,"Harlow","Conservative",18.8696300648573
+"282",293,"Harrogate and Knaresborough","Conservative",30.6710881294964
+"283",294,"Harrow East","Conservative",9.70816326530612
+"284",295,"Harrow West","Labour",4.73789241035985
+"285",296,"Hartlepool","Labour",7.65763484426437
+"286",297,"Harwich and North Essex","Conservative",31.3305252725471
+"287",298,"Hastings and Rye","Conservative",9.41740137844365
+"288",299,"Havant","Conservative",31.0520210582672
+"289",300,"Hayes and Harlington","Labour",34.8455255681818
+"290",301,"Hazel Grove","Conservative",15.1599990744811
+"291",302,"Hemel Hempstead","Conservative",29.0532508613221
+"292",303,"Hemsworth","Labour",28.481818610574
+"293",304,"Hendon","Conservative",7.50352609308886
+"294",305,"Henley","Conservative",45.9392425229923
+"295",306,"Hereford and South Herefordshire","Conservative",35.7407368220581
+"296",307,"North Herefordshire","Conservative",41.6383816088124
+"297",308,"Hertford and Stortford","Conservative",38.2198766814151
+"298",309,"North East Hertfordshire","Conservative",36.4909059613288
+"299",310,"South West Hertfordshire","Conservative",40.6219987078073
+"300",311,"Hertsmere","Conservative",36.8549240382504
+"301",312,"Hexham","Conservative",27.7563732841158
+"302",313,"Heywood and Middleton","Labour",10.9172194981252
+"303",314,"High Peak","Conservative",9.63594479119494
+"304",315,"Hitchin and Harpenden","Conservative",36.216704288939
+"305",316,"Holborn and St Pancras","Labour",31.0432106633647
+"306",317,"Hornchurch and Upminster","Conservative",23.6693460786444
+"307",318,"Hornsey and Wood Green","Labour",19.136454097084
+"308",319,"Horsham","Conservative",43.3166447079491
+"309",320,"Houghton and Sunderland South","Labour",33.6147990334901
+"310",321,"Hove","Labour",2.36718121576588
+"311",322,"Huddersfield","Labour",18.1456593705223
+"312",323,"Kingston upon Hull East","Labour",29.3620532665604
+"313",324,"Kingston upon Hull North","Labour",36.5038487661309
+"314",325,"Kingston upon Hull West and Hessle","Labour",29.3462880860296
+"315",326,"Huntingdon","Conservative",34.6934396624171
+"316",327,"Hyndburn","Labour",10.2595192016229
+"317",328,"Ilford North","Labour",1.20371127278673
+"318",329,"Ilford South","Labour",38.0971644321159
+"319",330,"Inverclyde","Scottish National Party",24.801040195485
+"320",331,"Inverness, Nairn, Badenoch and Strathspey","Scottish National Party",18.7613906583584
+"321",332,"Ipswich","Conservative",7.66624224750483
+"322",333,"Isle of Wight","Conservative",19.4921763869132
+"323",334,"Islington North","Labour",43.0474875086322
+"324",335,"Islington South and Finsbury","Labour",28.7056697537836
+"325",336,"Islwyn","Labour",29.3890003107257
+"326",337,"Jarrow","Labour",35.9947100923141
+"327",338,"Keighley","Conservative",6.2150112981699
+"328",339,"Kenilworth and Southam","Conservative",43.0448238404624
+"329",340,"Kensington","Conservative",21.1352934420581
+"330",341,"Kettering","Conservative",26.6635605065865
+"331",342,"Kilmarnock and Loudoun","Scottish National Party",25.3010036547131
+"332",343,"Kingston and Surbiton","Conservative",4.78288019172025
+"333",344,"Kingswood","Conservative",18.7137662337662
+"334",345,"Kirkcaldy and Cowdenbeath","Scottish National Party",18.8572941087499
+"335",346,"Knowsley","Labour",68.3153288124902
+"336",348,"Lanark and Hamilton East","Scottish National Party",18.277896413189
+"337",349,"West Lancashire","Labour",16.829052258636
+"338",350,"Lancaster and Fleetwood","Labour",3.03081125113805
+"339",351,"Leeds Central","Labour",37.6642692239389
+"340",352,"Leeds East","Labour",32.8123363703006
+"341",353,"Leeds North East","Labour",15.0131494481373
+"342",354,"Leeds North West","Liberal Democrat",6.70479968632516
+"343",355,"Leeds West","Labour",27.9181740103584
+"344",356,"Leicester East","Labour",38.1792460680702
+"345",357,"Leicester South","Labour",38.8424535283618
+"346",358,"Leicester West","Labour",20.8649556804357
+"347",359,"North West Leicestershire","Conservative",22.0629316365329
+"348",360,"South Leicestershire","Conservative",31.1983087935319
+"349",361,"Leigh","Labour",31.2390576867673
+"350",362,"Lewes","Conservative",2.14285714285714
+"351",363,"Lewisham, Deptford","Labour",45.3675199257791
+"352",364,"Lewisham East","Labour",33.3923537497379
+"353",365,"Lewisham West and Penge","Labour",26.4187012987013
+"354",366,"Leyton and Wanstead","Labour",36.6484042945237
+"355",367,"Lichfield","Conservative",35.3410923504381
+"356",368,"Lincoln","Conservative",3.07991120976693
+"357",369,"Linlithgow and East Falkirk","Scottish National Party",20.9977758657077
+"358",370,"Liverpool, Riverside","Labour",55.267379075074
+"359",371,"Liverpool, Walton","Labour",72.3302866963518
+"360",372,"Liverpool, Wavertree","Labour",59.3132230194758
+"361",373,"Liverpool, West Derby","Labour",66.6983500280276
+"362",374,"Livingston","Scottish National Party",29.268250299755
+"363",375,"Llanelli","Labour",18.3932182298958
+"364",377,"Loughborough","Conservative",17.6528258362168
+"365",378,"Louth and Horncastle","Conservative",29.7540527654164
+"366",379,"Ludlow","Conservative",39.3837255269126
+"367",380,"Luton North","Labour",22.3250569636607
+"368",381,"Luton South","Labour",13.528046238393
+"369",382,"Macclesfield","Conservative",29.8620912133554
+"370",383,"Maidenhead","Conservative",53.9578497818216
+"371",384,"Maidstone and The Weald","Conservative",21.4137172565487
+"372",385,"Makerfield","Labour",29.3717067071537
+"373",386,"Maldon","Conservative",45.9361015714434
+"374",387,"Manchester Central","Labour",47.7355452118859
+"375",388,"Manchester, Gorton","Labour",57.305028677503
+"376",389,"Manchester, Withington","Labour",29.7662410439099
+"377",390,"Mansfield","Labour",11.2622634712775
+"378",391,"Meon Valley","Conservative",46.2381808689599
+"379",392,"Meriden","Conservative",35.7299013364257
+"380",393,"Merthyr Tydfil and Rhymney","Labour",35.1918080391258
+"381",394,"Middlesbrough","Labour",38.1489634929371
+"382",395,"Middlesbrough South and East Cleveland","Labour",4.96529982266786
+"383",396,"Midlothian","Scottish National Party",20.3989158097287
+"384",397,"Milton Keynes North","Conservative",16.9052901615475
+"385",398,"Milton Keynes South","Conservative",14.7110213913722
+"386",399,"Mitcham and Morden","Labour",37.4861548004076
+"387",400,"Mole Valley","Conservative",46.1606819006166
+"388",401,"Monmouth","Conservative",23.1385108086469
+"389",402,"Montgomeryshire","Conservative",15.7745060283793
+"390",403,"Moray","Scottish National Party",18.3948863636364
+"391",404,"Morecambe and Lunesdale","Conservative",10.6146801720549
+"392",405,"Morley and Outwood","Conservative",0.874611398963737
+"393",406,"Motherwell and Wishaw","Scottish National Party",24.6657130418558
+"394",407,"Na h-Eileanan an Iar","Scottish National Party",25.7372317731208
+"395",408,"Neath","Labour",25.7115928369463
+"396",409,"New Forest East","Conservative",38.7526037980059
+"397",410,"New Forest West","Conservative",43.4591858257752
+"398",411,"Newark","Conservative",35.3217850177814
+"399",412,"Newbury","Conservative",46.0174520069808
+"400",413,"Newcastle-under-Lyme","Labour",1.51173337674722
+"401",414,"Newcastle upon Tyne Central","Labour",36.1208493658259
+"402",415,"Newcastle upon Tyne East","Labour",31.8545714140023
+"403",416,"Newcastle upon Tyne North","Labour",22.6170056358736
+"404",417,"Newport East","Labour",13.401503930728
+"405",418,"Newport West","Labour",8.69953156368503
+"406",420,"Newton Abbot","Conservative",23.2814540028599
+"407",421,"Mid Norfolk","Conservative",33.0881789626906
+"408",422,"North Norfolk","Liberal Democrat",8.18189177156271
+"409",423,"North West Norfolk","Conservative",29.4441747060438
+"410",424,"South Norfolk","Conservative",35.8752166377816
+"411",425,"South West Norfolk","Conservative",27.6611454799441
+"412",426,"Normanton, Pontefract and Castleford","Labour",33.6143974551714
+"413",427,"Northampton North","Conservative",8.23374184872244
+"414",428,"Northampton South","Conservative",9.75465487089806
+"415",429,"South Northamptonshire","Conservative",43.4031086720778
+"416",430,"Norwich North","Conservative",10.2381170857038
+"417",431,"Norwich South","Labour",15.7934919423065
+"418",432,"Nottingham East","Labour",33.7811355051265
+"419",433,"Nottingham North","Labour",33.5568570862688
+"420",434,"Nottingham South","Labour",15.957667088462
+"421",435,"Nuneaton","Conservative",10.6712715032023
+"422",436,"Ochil and South Perthshire","Scottish National Party",17.5701128371723
+"423",437,"Ogmore","Labour",37.0014184397163
+"424",438,"Old Bexley and Sidcup","Conservative",33.804654744588
+"425",439,"Oldham East and Saddleworth","Labour",13.4927950003372
+"426",440,"Oldham West and Royton","Labour",34.1655655237963
+"427",441,"Orkney and Shetland","Liberal Democrat",3.59468497008096
+"428",442,"Orpington","Conservative",40.7468591939958
+"429",443,"Oxford East","Labour",30.144607311251
+"430",444,"Oxford West and Abingdon","Conservative",16.737995004105
+"431",445,"Paisley and Renfrewshire North","Scottish National Party",17.9858111053862
+"432",446,"Paisley and Renfrewshire South","Scottish National Party",12.2961104140527
+"433",447,"Pendle","Conservative",12.2682685385169
+"434",448,"Penistone and Stocksbridge","Labour",14.3488282750672
+"435",449,"Penrith and The Border","Conservative",45.2949614079825
+"436",450,"Perth and North Perthshire","Scottish National Party",17.7878228782288
+"437",451,"Peterborough","Conservative",4.08921933085502
+"438",452,"Plymouth, Moor View","Conservative",2.40811153358682
+"439",453,"Plymouth, Sutton and Devonport","Conservative",1.09042386839855
+"440",454,"Pontypridd","Labour",23.7183886806399
+"441",455,"Poole","Conservative",33.3150465258582
+"442",456,"Poplar and Limehouse","Labour",33.1557088002508
+"443",457,"Portsmouth North","Conservative",23.2143643974444
+"444",458,"Portsmouth South","Conservative",12.507457699926
+"445",459,"Preseli Pembrokeshire","Conservative",12.2521944964987
+"446",460,"Preston","Labour",36.0542591651976
+"447",461,"Pudsey","Conservative",8.83814086830169
+"448",462,"Putney","Conservative",23.7778244925607
+"449",463,"Rayleigh and Wickford","Conservative",32.3750469748215
+"450",464,"Reading East","Conservative",12.9124252386422
+"451",465,"Reading West","Conservative",13.7385340054541
+"452",466,"Redcar","Labour",25.3867396563943
+"453",467,"Redditch","Conservative",15.9961903034151
+"454",468,"Reigate","Conservative",43.4945179068726
+"455",469,"East Renfrewshire","Scottish National Party",6.55385157764851
+"456",470,"Rhondda","Labour",23.6381508022069
+"457",471,"Ribble Valley","Conservative",26.0436804930804
+"458",472,"Richmond (Yorks)","Conservative",36.2043741550769
+"459",473,"Richmond Park","Conservative",38.9418114752711
+"460",474,"Rochdale","Labour",27.3871890821043
+"461",475,"Rochester and Strood","Conservative",13.5825272297966
+"462",476,"Rochford and Southend East","Conservative",21.7299578059072
+"463",477,"Romford","Conservative",28.1813005815609
+"464",478,"Romsey and Southampton North","Conservative",36.5965535765941
+"465",479,"Ross, Skye and Lochaber","Scottish National Party",12.2551481667504
+"466",480,"Rossendale and Darwen","Conservative",11.5331266318538
+"467",481,"Rother Valley","Labour",15.5192581722282
+"468",482,"Rotherham","Labour",22.3303281072363
+"469",483,"Rugby","Conservative",21.1096600416276
+"470",484,"Ruislip, Northwood and Pinner","Conservative",39.4830346335559
+"471",485,"Runnymede and Weybridge","Conservative",44.2220091105251
+"472",486,"Rushcliffe","Conservative",25.0688855050395
+"473",487,"Rutherglen and Hamilton West","Scottish National Party",17.3131996875814
+"474",488,"Rutland and Melton","Conservative",39.7505631558706
+"475",489,"Saffron Walden","Conservative",43.4150409116967
+"476",490,"St Albans","Conservative",23.3902228427608
+"477",491,"St Austell and Newquay","Conservative",16.2288278628304
+"478",492,"St Helens North","Labour",37.3810965063992
+"479",493,"St Helens South and Whiston","Labour",43.8932165216852
+"480",494,"St Ives","Conservative",5.11053154495777
+"481",495,"Salford and Eccles","Labour",28.9891588266568
+"482",496,"Salisbury","Conservative",40.2741347007198
+"483",497,"Scarborough and Whitby","Conservative",12.9872850290119
+"484",498,"Scunthorpe","Labour",8.48379848948323
+"485",499,"Sedgefield","Labour",17.6748631056927
+"486",500,"Sefton Central","Labour",24.1651537096346
+"487",501,"Selby and Ainsty","Conservative",25.6741913491402
+"488",502,"Sevenoaks","Conservative",39.0252174606975
+"489",503,"Sheffield, Brightside and Hillsborough","Labour",34.4718248320975
+"490",504,"Sheffield Central","Labour",39.184569759808
+"491",505,"Sheffield, Hallam","Liberal Democrat",4.24109154485319
+"492",506,"Sheffield, Heeley","Labour",30.8076484018265
+"493",507,"Sheffield South East","Labour",29.5334053016673
+"494",508,"Sherwood","Conservative",9.16604205294094
+"495",509,"Shipley","Conservative",19.0415891733608
+"496",510,"Shrewsbury and Atcham","Conservative",17.6795682229862
+"497",511,"North Shropshire","Conservative",31.3735187263424
+"498",512,"Sittingbourne and Sheppey","Conservative",24.6425533638463
+"499",513,"Skipton and Ripon","Conservative",38.0523836580583
+"500",514,"Sleaford and North Hykeham","Conservative",38.9303241637608
+"501",515,"Slough","Labour",15.1962713619886
+"502",516,"Solihull","Conservative",23.5528213366436
+"503",517,"North Somerset","Conservative",39.1893726035764
+"504",518,"North East Somerset","Conservative",24.9442379182156
+"505",519,"Somerton and Frome","Conservative",33.6069243396508
+"506",520,"South Holland and The Deepings","Conservative",37.7324364419696
+"507",521,"South Ribble","Conservative",11.351919037617
+"508",522,"South Shields","Labour",29.2678891493175
+"509",523,"Southampton, Itchen","Conservative",5.18004920599419
+"510",524,"Southampton, Test","Labour",8.7281224227985
+"511",525,"Southend West","Conservative",31.501494079849
+"512",526,"Southport","Liberal Democrat",2.99766445205324
+"513",527,"Spelthorne","Conservative",28.8351433403289
+"514",528,"Stafford","Conservative",18.8180531917075
+"515",529,"Staffordshire Moorlands","Conservative",23.8899194589898
+"516",530,"South Staffordshire","Conservative",41.0722206540586
+"517",531,"Stalybridge and Hyde","Labour",16.2938051372033
+"518",532,"Stevenage","Conservative",10.3663256553484
+"519",533,"Stirling","Scottish National Party",20.1016591541191
+"520",534,"Stockport","Labour",25.3751670912255
+"521",535,"Stockton North","Labour",21.1442723206388
+"522",536,"Stockton South","Conservative",9.74187694268008
+"523",537,"Stoke-on-Trent Central","Labour",16.6613048513705
+"524",538,"Stoke-on-Trent North","Labour",12.5109949811145
+"525",539,"Stoke-on-Trent South","Labour",6.49244380801392
+"526",540,"Stone","Conservative",34.5516786800196
+"527",541,"Stourbridge","Conservative",14.5430054965348
+"528",543,"Stratford-on-Avon","Conservative",44.4548086826405
+"529",544,"Streatham","Labour",27.9053932269241
+"530",545,"Stretford and Urmston","Labour",25.1907903246669
+"531",546,"Stroud","Conservative",8.00078922705076
+"532",547,"Central Suffolk and North Ipswich","Conservative",37.2423228382851
+"533",548,"Suffolk Coastal","Conservative",33.8921466345289
+"534",549,"South Suffolk","Conservative",33.8008361107365
+"535",550,"West Suffolk","Conservative",30.4354891127722
+"536",551,"Sunderland Central","Labour",26.7683540060342
+"537",552,"East Surrey","Conservative",40.3864320981053
+"538",553,"Surrey Heath","Conservative",45.5696202531646
+"539",554,"South West Surrey","Conservative",49.9938724417444
+"540",555,"Mid Sussex","Conservative",42.2423989424616
+"541",556,"Sutton and Cheam","Conservative",7.85692816351067
+"542",557,"Sutton Coldfield","Conservative",32.2826129704645
+"543",558,"Swansea East","Labour",35.7784520197513
+"544",559,"Swansea West","Labour",20.0136534304244
+"545",560,"North Swindon","Conservative",22.560392021745
+"546",561,"South Swindon","Conservative",11.7430931936748
+"547",562,"Tamworth","Conservative",23.9581125196083
+"548",563,"Tatton","Conservative",40.2688860435339
+"549",564,"Taunton Deane","Conservative",26.7607580285729
+"550",565,"Telford","Conservative",1.79603887317013
+"551",566,"Tewkesbury","Conservative",39.7007805724198
+"552",567,"North Thanet","Conservative",23.2673793381931
+"553",568,"South Thanet","Conservative",5.69219246573956
+"554",569,"Thirsk and Malton","Conservative",37.15458798816
+"555",570,"Thornbury and Yate","Conservative",3.07803170681491
+"556",571,"Thurrock","Conservative",1.08143007021225
+"557",572,"Tiverton and Honiton","Conservative",37.522087681119
+"558",573,"Tonbridge and Malling","Conservative",44.222098006335
+"559",574,"Tooting","Labour",5.30927160978161
+"560",575,"Torbay","Conservative",6.83458474593898
+"561",576,"Torfaen","Labour",21.5330679811266
+"562",577,"Totnes","Conservative",38.8241289254093
+"563",578,"Tottenham","Labour",55.3691432868086
+"564",579,"Truro and Falmouth","Conservative",27.1612602824771
+"565",580,"Tunbridge Wells","Conservative",44.4777164190713
+"566",581,"Twickenham","Conservative",3.25301593445585
+"567",582,"Tynemouth","Labour",15.4033087204412
+"568",583,"North Tyneside","Labour",36.7251911657909
+"569",587,"Uxbridge and South Ruislip","Conservative",23.8669076789181
+"570",588,"Vale of Clwyd","Conservative",0.672130682623859
+"571",589,"Vale of Glamorgan","Conservative",13.4131362954009
+"572",590,"Vauxhall","Labour",26.507582236499
+"573",591,"Wakefield","Labour",6.08056221348288
+"574",592,"Wallasey","Labour",37.6977355531983
+"575",593,"Walsall North","Labour",5.25174199495702
+"576",594,"Walsall South","Labour",14.3577608872317
+"577",595,"Walthamstow","Labour",55.4957412192554
+"578",596,"Wansbeck","Labour",28.2417981727575
+"579",597,"Wantage","Conservative",37.292524005487
+"580",598,"Warley","Labour",38.8643633191467
+"581",599,"Warrington North","Labour",19.645963143178
+"582",600,"Warrington South","Conservative",4.63329570535609
+"583",601,"Warwick and Leamington","Conservative",13.0602400110714
+"584",602,"North Warwickshire","Conservative",6.27519682546384
+"585",603,"Washington and Sunderland West","Labour",35.3141691494216
+"586",604,"Watford","Conservative",17.4428752070384
+"587",605,"Waveney","Conservative",4.61338033565791
+"588",606,"Wealden","Conservative",40.2809688338566
+"589",607,"Weaver Vale","Conservative",1.71976017240276
+"590",608,"Wellingborough","Conservative",32.5143763632758
+"591",609,"Wells","Conservative",13.3294671727822
+"592",610,"Welwyn Hatfield","Conservative",24.2067523155064
+"593",611,"Wentworth and Dearne","Labour",32.0405658848318
+"594",612,"West Bromwich East","Labour",25.2587218606636
+"595",613,"West Bromwich West","Labour",22.1035801975675
+"596",614,"West Ham","Labour",53.010815827856
+"597",615,"Westminster North","Labour",5.00328997317406
+"598",616,"Westmorland and Lonsdale","Liberal Democrat",18.2897668049623
+"599",617,"Weston-Super-Mare","Conservative",29.7020094382707
+"600",618,"Wigan","Labour",31.4309054379264
+"601",619,"North Wiltshire","Conservative",41.6290845794762
+"602",620,"South West Wiltshire","Conservative",35.1799856708557
+"603",621,"Wimbledon","Conservative",26.0604683821404
+"604",622,"Winchester","Conservative",30.5770482319763
+"605",623,"Windsor","Conservative",50.005980861244
+"606",624,"Wirral South","Labour",10.9926619977532
+"607",625,"Wirral West","Labour",0.996225333269621
+"608",626,"Witham","Conservative",41.4560719131615
+"609",627,"Witney","Conservative",43.0132348414897
+"610",628,"Woking","Conservative",40.0469555846355
+"611",629,"Wokingham","Conservative",43.2097001732174
+"612",630,"Wolverhampton North East","Labour",16.1603387936359
+"613",631,"Wolverhampton South East","Labour",31.0033367851801
+"614",632,"Wolverhampton South West","Labour",1.99209132283817
+"615",633,"Worcester","Conservative",11.3549061802385
+"616",634,"Mid Worcestershire","Conservative",39.3145045476304
+"617",635,"West Worcestershire","Conservative",41.7338262476895
+"618",636,"Workington","Labour",12.1831370407925
+"619",637,"Worsley and Eccles South","Labour",14.1409817351598
+"620",638,"East Worthing and Shoreham","Conservative",29.9591165978596
+"621",639,"Worthing West","Conservative",33.2033173768296
+"622",640,"The Wrekin","Conservative",23.6437264784207
+"623",641,"Wrexham","Labour",5.59613680124698
+"624",642,"Wycombe","Conservative",28.8808102801376
+"625",643,"Wyre and Preston North","Conservative",28.3626961698034
+"626",644,"Wyre Forest","Conservative",26.0335760517799
+"627",645,"Wythenshawe and Sale East","Labour",24.4296512031066
+"628",646,"Yeovil","Conservative",9.33202185024502
+"629",647,"Ynys Môn","Labour",0.65567199221211
+"630",648,"York Central","Labour",14.0864567820962
+"631",649,"York Outer","Conservative",24.3567148396193
+"632",650,"East Yorkshire","Conservative",29.8713768478326

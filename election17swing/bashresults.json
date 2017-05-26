@@ -1,0 +1,3165 @@
+{
+ "name": """",
+ "majority": ""ConstituencyName"",
+ "winner": ""pano""
+},
+{
+ "name": ""1"",
+ "majority": ""Aberavon"",
+ "winner": "1"
+},
+{
+ "name": ""2"",
+ "majority": ""Aberconwy"",
+ "winner": "2"
+},
+{
+ "name": ""3"",
+ "majority": ""Aberdeen North"",
+ "winner": "3"
+},
+{
+ "name": ""4"",
+ "majority": ""Aberdeen South"",
+ "winner": "4"
+},
+{
+ "name": ""5"",
+ "majority": ""West Aberdeenshire and Kincardine"",
+ "winner": "5"
+},
+{
+ "name": ""6"",
+ "majority": ""Airdrie and Shotts"",
+ "winner": "6"
+},
+{
+ "name": ""7"",
+ "majority": ""Aldershot"",
+ "winner": "7"
+},
+{
+ "name": ""8"",
+ "majority": ""Aldridge-Brownhills"",
+ "winner": "8"
+},
+{
+ "name": ""9"",
+ "majority": ""Altrincham and Sale West"",
+ "winner": "9"
+},
+{
+ "name": ""10"",
+ "majority": ""Alyn and Deeside"",
+ "winner": "10"
+},
+{
+ "name": ""11"",
+ "majority": ""Amber Valley"",
+ "winner": "11"
+},
+{
+ "name": ""12"",
+ "majority": ""Angus"",
+ "winner": "12"
+},
+{
+ "name": ""13"",
+ "majority": ""Arfon"",
+ "winner": "16"
+},
+{
+ "name": ""14"",
+ "majority": ""Argyll and Bute"",
+ "winner": "17"
+},
+{
+ "name": ""15"",
+ "majority": ""Arundel and South Downs"",
+ "winner": "18"
+},
+{
+ "name": ""16"",
+ "majority": ""Ashfield"",
+ "winner": "19"
+},
+{
+ "name": ""17"",
+ "majority": ""Ashford"",
+ "winner": "20"
+},
+{
+ "name": ""18"",
+ "majority": ""Ashton-under-Lyne"",
+ "winner": "21"
+},
+{
+ "name": ""19"",
+ "majority": ""Aylesbury"",
+ "winner": "22"
+},
+{
+ "name": ""20"",
+ "majority": ""Ayr",
+ "winner": "23"
+},
+{
+ "name": ""21"",
+ "majority": ""Central Ayrshire"",
+ "winner": "24"
+},
+{
+ "name": ""22"",
+ "majority": ""North Ayrshire and Arran"",
+ "winner": "25"
+},
+{
+ "name": ""23"",
+ "majority": ""Banbury"",
+ "winner": "26"
+},
+{
+ "name": ""24"",
+ "majority": ""Banff and Buchan"",
+ "winner": "27"
+},
+{
+ "name": ""25"",
+ "majority": ""Barking"",
+ "winner": "28"
+},
+{
+ "name": ""26"",
+ "majority": ""Barnsley Central"",
+ "winner": "29"
+},
+{
+ "name": ""27"",
+ "majority": ""Barnsley East"",
+ "winner": "30"
+},
+{
+ "name": ""28"",
+ "majority": ""Barrow and Furness"",
+ "winner": "31"
+},
+{
+ "name": ""29"",
+ "majority": ""Basildon and Billericay"",
+ "winner": "32"
+},
+{
+ "name": ""30"",
+ "majority": ""South Basildon and East Thurrock"",
+ "winner": "33"
+},
+{
+ "name": ""31"",
+ "majority": ""Basingstoke"",
+ "winner": "34"
+},
+{
+ "name": ""32"",
+ "majority": ""Bassetlaw"",
+ "winner": "35"
+},
+{
+ "name": ""33"",
+ "majority": ""Bath"",
+ "winner": "36"
+},
+{
+ "name": ""34"",
+ "majority": ""Batley and Spen"",
+ "winner": "37"
+},
+{
+ "name": ""35"",
+ "majority": ""Battersea"",
+ "winner": "38"
+},
+{
+ "name": ""36"",
+ "majority": ""Beaconsfield"",
+ "winner": "39"
+},
+{
+ "name": ""37"",
+ "majority": ""Beckenham"",
+ "winner": "40"
+},
+{
+ "name": ""38"",
+ "majority": ""Bedford"",
+ "winner": "41"
+},
+{
+ "name": ""39"",
+ "majority": ""Mid Bedfordshire"",
+ "winner": "42"
+},
+{
+ "name": ""40"",
+ "majority": ""North East Bedfordshire"",
+ "winner": "43"
+},
+{
+ "name": ""41"",
+ "majority": ""South West Bedfordshire"",
+ "winner": "44"
+},
+{
+ "name": ""42"",
+ "majority": ""Bermondsey and Old Southwark"",
+ "winner": "49"
+},
+{
+ "name": ""43"",
+ "majority": ""Berwick-upon-Tweed"",
+ "winner": "50"
+},
+{
+ "name": ""44"",
+ "majority": ""Berwickshire",
+ "winner": "51"
+},
+{
+ "name": ""45"",
+ "majority": ""Bethnal Green and Bow"",
+ "winner": "52"
+},
+{
+ "name": ""46"",
+ "majority": ""Beverley and Holderness"",
+ "winner": "53"
+},
+{
+ "name": ""47"",
+ "majority": ""Bexhill and Battle"",
+ "winner": "54"
+},
+{
+ "name": ""48"",
+ "majority": ""Bexleyheath and Crayford"",
+ "winner": "55"
+},
+{
+ "name": ""49"",
+ "majority": ""Birkenhead"",
+ "winner": "56"
+},
+{
+ "name": ""50"",
+ "majority": ""Birmingham",
+ "winner": "57"
+},
+{
+ "name": ""51"",
+ "majority": ""Birmingham",
+ "winner": "58"
+},
+{
+ "name": ""52"",
+ "majority": ""Birmingham",
+ "winner": "59"
+},
+{
+ "name": ""53"",
+ "majority": ""Birmingham",
+ "winner": "60"
+},
+{
+ "name": ""54"",
+ "majority": ""Birmingham",
+ "winner": "61"
+},
+{
+ "name": ""55"",
+ "majority": ""Birmingham",
+ "winner": "62"
+},
+{
+ "name": ""56"",
+ "majority": ""Birmingham",
+ "winner": "63"
+},
+{
+ "name": ""57"",
+ "majority": ""Birmingham",
+ "winner": "64"
+},
+{
+ "name": ""58"",
+ "majority": ""Birmingham",
+ "winner": "65"
+},
+{
+ "name": ""59"",
+ "majority": ""Bishop Auckland"",
+ "winner": "66"
+},
+{
+ "name": ""60"",
+ "majority": ""Blackburn"",
+ "winner": "67"
+},
+{
+ "name": ""61"",
+ "majority": ""Blackley and Broughton"",
+ "winner": "68"
+},
+{
+ "name": ""62"",
+ "majority": ""Blackpool North and Cleveleys"",
+ "winner": "69"
+},
+{
+ "name": ""63"",
+ "majority": ""Blackpool South"",
+ "winner": "70"
+},
+{
+ "name": ""64"",
+ "majority": ""Blaenau Gwent"",
+ "winner": "71"
+},
+{
+ "name": ""65"",
+ "majority": ""Blaydon"",
+ "winner": "72"
+},
+{
+ "name": ""66"",
+ "majority": ""Blyth Valley"",
+ "winner": "73"
+},
+{
+ "name": ""67"",
+ "majority": ""Bognor Regis and Littlehampton"",
+ "winner": "74"
+},
+{
+ "name": ""68"",
+ "majority": ""Bolsover"",
+ "winner": "75"
+},
+{
+ "name": ""69"",
+ "majority": ""Bolton North East"",
+ "winner": "76"
+},
+{
+ "name": ""70"",
+ "majority": ""Bolton South East"",
+ "winner": "77"
+},
+{
+ "name": ""71"",
+ "majority": ""Bolton West"",
+ "winner": "78"
+},
+{
+ "name": ""72"",
+ "majority": ""Bootle"",
+ "winner": "79"
+},
+{
+ "name": ""73"",
+ "majority": ""Boston and Skegness"",
+ "winner": "80"
+},
+{
+ "name": ""74"",
+ "majority": ""Bosworth"",
+ "winner": "81"
+},
+{
+ "name": ""75"",
+ "majority": ""Bournemouth East"",
+ "winner": "82"
+},
+{
+ "name": ""76"",
+ "majority": ""Bournemouth West"",
+ "winner": "83"
+},
+{
+ "name": ""77"",
+ "majority": ""Bracknell"",
+ "winner": "84"
+},
+{
+ "name": ""78"",
+ "majority": ""Bradford East"",
+ "winner": "85"
+},
+{
+ "name": ""79"",
+ "majority": ""Bradford South"",
+ "winner": "86"
+},
+{
+ "name": ""80"",
+ "majority": ""Bradford West"",
+ "winner": "87"
+},
+{
+ "name": ""81"",
+ "majority": ""Braintree"",
+ "winner": "88"
+},
+{
+ "name": ""82"",
+ "majority": ""Brecon and Radnorshire"",
+ "winner": "89"
+},
+{
+ "name": ""83"",
+ "majority": ""Brent Central"",
+ "winner": "90"
+},
+{
+ "name": ""84"",
+ "majority": ""Brent North"",
+ "winner": "91"
+},
+{
+ "name": ""85"",
+ "majority": ""Brentford and Isleworth"",
+ "winner": "92"
+},
+{
+ "name": ""86"",
+ "majority": ""Brentwood and Ongar"",
+ "winner": "93"
+},
+{
+ "name": ""87"",
+ "majority": ""Bridgend"",
+ "winner": "94"
+},
+{
+ "name": ""88"",
+ "majority": ""Bridgwater and West Somerset"",
+ "winner": "95"
+},
+{
+ "name": ""89"",
+ "majority": ""Brigg and Goole"",
+ "winner": "96"
+},
+{
+ "name": ""90"",
+ "majority": ""Brighton",
+ "winner": "97"
+},
+{
+ "name": ""91"",
+ "majority": ""Brighton",
+ "winner": "98"
+},
+{
+ "name": ""92"",
+ "majority": ""Bristol East"",
+ "winner": "99"
+},
+{
+ "name": ""93"",
+ "majority": ""Bristol North West"",
+ "winner": "100"
+},
+{
+ "name": ""94"",
+ "majority": ""Bristol South"",
+ "winner": "101"
+},
+{
+ "name": ""95"",
+ "majority": ""Bristol West"",
+ "winner": "102"
+},
+{
+ "name": ""96"",
+ "majority": ""Broadland"",
+ "winner": "103"
+},
+{
+ "name": ""97"",
+ "majority": ""Bromley and Chislehurst"",
+ "winner": "104"
+},
+{
+ "name": ""98"",
+ "majority": ""Bromsgrove"",
+ "winner": "105"
+},
+{
+ "name": ""99"",
+ "majority": ""Broxbourne"",
+ "winner": "106"
+},
+{
+ "name": ""100"",
+ "majority": ""Broxtowe"",
+ "winner": "107"
+},
+{
+ "name": ""101"",
+ "majority": ""Buckingham"",
+ "winner": "108"
+},
+{
+ "name": ""102"",
+ "majority": ""Burnley"",
+ "winner": "109"
+},
+{
+ "name": ""103"",
+ "majority": ""Burton"",
+ "winner": "110"
+},
+{
+ "name": ""104"",
+ "majority": ""Bury North"",
+ "winner": "111"
+},
+{
+ "name": ""105"",
+ "majority": ""Bury South"",
+ "winner": "112"
+},
+{
+ "name": ""106"",
+ "majority": ""Bury St Edmunds"",
+ "winner": "113"
+},
+{
+ "name": ""107"",
+ "majority": ""Caerphilly"",
+ "winner": "114"
+},
+{
+ "name": ""108"",
+ "majority": ""Caithness",
+ "winner": "115"
+},
+{
+ "name": ""109"",
+ "majority": ""Calder Valley"",
+ "winner": "116"
+},
+{
+ "name": ""110"",
+ "majority": ""Camberwell and Peckham"",
+ "winner": "117"
+},
+{
+ "name": ""111"",
+ "majority": ""Camborne and Redruth"",
+ "winner": "118"
+},
+{
+ "name": ""112"",
+ "majority": ""Cambridge"",
+ "winner": "119"
+},
+{
+ "name": ""113"",
+ "majority": ""North East Cambridgeshire"",
+ "winner": "120"
+},
+{
+ "name": ""114"",
+ "majority": ""North West Cambridgeshire"",
+ "winner": "121"
+},
+{
+ "name": ""115"",
+ "majority": ""South Cambridgeshire"",
+ "winner": "122"
+},
+{
+ "name": ""116"",
+ "majority": ""South East Cambridgeshire"",
+ "winner": "123"
+},
+{
+ "name": ""117"",
+ "majority": ""Cannock Chase"",
+ "winner": "124"
+},
+{
+ "name": ""118"",
+ "majority": ""Canterbury"",
+ "winner": "125"
+},
+{
+ "name": ""119"",
+ "majority": ""Cardiff Central"",
+ "winner": "126"
+},
+{
+ "name": ""120"",
+ "majority": ""Cardiff North"",
+ "winner": "127"
+},
+{
+ "name": ""121"",
+ "majority": ""Cardiff South and Penarth"",
+ "winner": "128"
+},
+{
+ "name": ""122"",
+ "majority": ""Cardiff West"",
+ "winner": "129"
+},
+{
+ "name": ""123"",
+ "majority": ""Carlisle"",
+ "winner": "130"
+},
+{
+ "name": ""124"",
+ "majority": ""Carmarthen East and Dinefwr"",
+ "winner": "131"
+},
+{
+ "name": ""125"",
+ "majority": ""Carmarthen West and Pembrokeshire South"",
+ "winner": "132"
+},
+{
+ "name": ""126"",
+ "majority": ""Carshalton and Wallington"",
+ "winner": "133"
+},
+{
+ "name": ""127"",
+ "majority": ""Castle Point"",
+ "winner": "134"
+},
+{
+ "name": ""128"",
+ "majority": ""Ceredigion"",
+ "winner": "135"
+},
+{
+ "name": ""129"",
+ "majority": ""Charnwood"",
+ "winner": "136"
+},
+{
+ "name": ""130"",
+ "majority": ""Chatham and Aylesford"",
+ "winner": "137"
+},
+{
+ "name": ""131"",
+ "majority": ""Cheadle"",
+ "winner": "138"
+},
+{
+ "name": ""132"",
+ "majority": ""Chelmsford"",
+ "winner": "139"
+},
+{
+ "name": ""133"",
+ "majority": ""Chelsea and Fulham"",
+ "winner": "140"
+},
+{
+ "name": ""134"",
+ "majority": ""Cheltenham"",
+ "winner": "141"
+},
+{
+ "name": ""135"",
+ "majority": ""Chesham and Amersham"",
+ "winner": "142"
+},
+{
+ "name": ""136"",
+ "majority": ""City of Chester"",
+ "winner": "143"
+},
+{
+ "name": ""137"",
+ "majority": ""Chesterfield"",
+ "winner": "144"
+},
+{
+ "name": ""138"",
+ "majority": ""Chichester"",
+ "winner": "145"
+},
+{
+ "name": ""139"",
+ "majority": ""Chingford and Woodford Green"",
+ "winner": "146"
+},
+{
+ "name": ""140"",
+ "majority": ""Chippenham"",
+ "winner": "147"
+},
+{
+ "name": ""141"",
+ "majority": ""Chipping Barnet"",
+ "winner": "148"
+},
+{
+ "name": ""142"",
+ "majority": ""Chorley"",
+ "winner": "149"
+},
+{
+ "name": ""143"",
+ "majority": ""Christchurch"",
+ "winner": "150"
+},
+{
+ "name": ""144"",
+ "majority": ""Cities of London and Westminster"",
+ "winner": "151"
+},
+{
+ "name": ""145"",
+ "majority": ""Clacton"",
+ "winner": "152"
+},
+{
+ "name": ""146"",
+ "majority": ""Cleethorpes"",
+ "winner": "153"
+},
+{
+ "name": ""147"",
+ "majority": ""Clwyd South"",
+ "winner": "154"
+},
+{
+ "name": ""148"",
+ "majority": ""Clwyd West"",
+ "winner": "155"
+},
+{
+ "name": ""149"",
+ "majority": ""Coatbridge",
+ "winner": "156"
+},
+{
+ "name": ""150"",
+ "majority": ""Colchester"",
+ "winner": "157"
+},
+{
+ "name": ""151"",
+ "majority": ""Colne Valley"",
+ "winner": "158"
+},
+{
+ "name": ""152"",
+ "majority": ""Congleton"",
+ "winner": "159"
+},
+{
+ "name": ""153"",
+ "majority": ""Copeland"",
+ "winner": "160"
+},
+{
+ "name": ""154"",
+ "majority": ""Corby"",
+ "winner": "161"
+},
+{
+ "name": ""155"",
+ "majority": ""North Cornwall"",
+ "winner": "162"
+},
+{
+ "name": ""156"",
+ "majority": ""South East Cornwall"",
+ "winner": "163"
+},
+{
+ "name": ""157"",
+ "majority": ""The Cotswolds"",
+ "winner": "164"
+},
+{
+ "name": ""158"",
+ "majority": ""Coventry North East"",
+ "winner": "165"
+},
+{
+ "name": ""159"",
+ "majority": ""Coventry North West"",
+ "winner": "166"
+},
+{
+ "name": ""160"",
+ "majority": ""Coventry South"",
+ "winner": "167"
+},
+{
+ "name": ""161"",
+ "majority": ""Crawley"",
+ "winner": "168"
+},
+{
+ "name": ""162"",
+ "majority": ""Crewe and Nantwich"",
+ "winner": "169"
+},
+{
+ "name": ""163"",
+ "majority": ""Croydon Central"",
+ "winner": "170"
+},
+{
+ "name": ""164"",
+ "majority": ""Croydon North"",
+ "winner": "171"
+},
+{
+ "name": ""165"",
+ "majority": ""Croydon South"",
+ "winner": "172"
+},
+{
+ "name": ""166"",
+ "majority": ""Cumbernauld",
+ "winner": "173"
+},
+{
+ "name": ""167"",
+ "majority": ""Cynon Valley"",
+ "winner": "174"
+},
+{
+ "name": ""168"",
+ "majority": ""Dagenham and Rainham"",
+ "winner": "175"
+},
+{
+ "name": ""169"",
+ "majority": ""Darlington"",
+ "winner": "176"
+},
+{
+ "name": ""170"",
+ "majority": ""Dartford"",
+ "winner": "177"
+},
+{
+ "name": ""171"",
+ "majority": ""Daventry"",
+ "winner": "178"
+},
+{
+ "name": ""172"",
+ "majority": ""Delyn"",
+ "winner": "179"
+},
+{
+ "name": ""173"",
+ "majority": ""Denton and Reddish"",
+ "winner": "180"
+},
+{
+ "name": ""174"",
+ "majority": ""Derby North"",
+ "winner": "181"
+},
+{
+ "name": ""175"",
+ "majority": ""Derby South"",
+ "winner": "182"
+},
+{
+ "name": ""176"",
+ "majority": ""Derbyshire Dales"",
+ "winner": "183"
+},
+{
+ "name": ""177"",
+ "majority": ""Mid Derbyshire"",
+ "winner": "184"
+},
+{
+ "name": ""178"",
+ "majority": ""North East Derbyshire"",
+ "winner": "185"
+},
+{
+ "name": ""179"",
+ "majority": ""South Derbyshire"",
+ "winner": "186"
+},
+{
+ "name": ""180"",
+ "majority": ""Devizes"",
+ "winner": "187"
+},
+{
+ "name": ""181"",
+ "majority": ""Central Devon"",
+ "winner": "188"
+},
+{
+ "name": ""182"",
+ "majority": ""East Devon"",
+ "winner": "189"
+},
+{
+ "name": ""183"",
+ "majority": ""North Devon"",
+ "winner": "190"
+},
+{
+ "name": ""184"",
+ "majority": ""South West Devon"",
+ "winner": "191"
+},
+{
+ "name": ""185"",
+ "majority": ""Torridge and West Devon"",
+ "winner": "192"
+},
+{
+ "name": ""186"",
+ "majority": ""Dewsbury"",
+ "winner": "193"
+},
+{
+ "name": ""187"",
+ "majority": ""Don Valley"",
+ "winner": "194"
+},
+{
+ "name": ""188"",
+ "majority": ""Doncaster Central"",
+ "winner": "195"
+},
+{
+ "name": ""189"",
+ "majority": ""Doncaster North"",
+ "winner": "196"
+},
+{
+ "name": ""190"",
+ "majority": ""Mid Dorset and North Poole"",
+ "winner": "197"
+},
+{
+ "name": ""191"",
+ "majority": ""North Dorset"",
+ "winner": "198"
+},
+{
+ "name": ""192"",
+ "majority": ""South Dorset"",
+ "winner": "199"
+},
+{
+ "name": ""193"",
+ "majority": ""West Dorset"",
+ "winner": "200"
+},
+{
+ "name": ""194"",
+ "majority": ""Dover"",
+ "winner": "201"
+},
+{
+ "name": ""195"",
+ "majority": ""Dudley North"",
+ "winner": "204"
+},
+{
+ "name": ""196"",
+ "majority": ""Dudley South"",
+ "winner": "205"
+},
+{
+ "name": ""197"",
+ "majority": ""Dulwich and West Norwood"",
+ "winner": "206"
+},
+{
+ "name": ""198"",
+ "majority": ""Dumfries and Galloway"",
+ "winner": "207"
+},
+{
+ "name": ""199"",
+ "majority": ""Dumfriesshire",
+ "winner": "208"
+},
+{
+ "name": ""200"",
+ "majority": ""East Dunbartonshire"",
+ "winner": "209"
+},
+{
+ "name": ""201"",
+ "majority": ""West Dunbartonshire"",
+ "winner": "210"
+},
+{
+ "name": ""202"",
+ "majority": ""Dundee East"",
+ "winner": "211"
+},
+{
+ "name": ""203"",
+ "majority": ""Dundee West"",
+ "winner": "212"
+},
+{
+ "name": ""204"",
+ "majority": ""Dunfermline and West Fife"",
+ "winner": "213"
+},
+{
+ "name": ""205"",
+ "majority": ""City of Durham"",
+ "winner": "214"
+},
+{
+ "name": ""206"",
+ "majority": ""North Durham"",
+ "winner": "215"
+},
+{
+ "name": ""207"",
+ "majority": ""North West Durham"",
+ "winner": "216"
+},
+{
+ "name": ""208"",
+ "majority": ""Dwyfor Meirionnydd"",
+ "winner": "217"
+},
+{
+ "name": ""209"",
+ "majority": ""Ealing Central and Acton"",
+ "winner": "218"
+},
+{
+ "name": ""210"",
+ "majority": ""Ealing North"",
+ "winner": "219"
+},
+{
+ "name": ""211"",
+ "majority": ""Ealing",
+ "winner": "220"
+},
+{
+ "name": ""212"",
+ "majority": ""Easington"",
+ "winner": "221"
+},
+{
+ "name": ""213"",
+ "majority": ""East Ham"",
+ "winner": "222"
+},
+{
+ "name": ""214"",
+ "majority": ""East Kilbride",
+ "winner": "223"
+},
+{
+ "name": ""215"",
+ "majority": ""East Lothian"",
+ "winner": "224"
+},
+{
+ "name": ""216"",
+ "majority": ""Eastbourne"",
+ "winner": "225"
+},
+{
+ "name": ""217"",
+ "majority": ""Eastleigh"",
+ "winner": "226"
+},
+{
+ "name": ""218"",
+ "majority": ""Eddisbury"",
+ "winner": "227"
+},
+{
+ "name": ""219"",
+ "majority": ""Edinburgh East"",
+ "winner": "228"
+},
+{
+ "name": ""220"",
+ "majority": ""Edinburgh North and Leith"",
+ "winner": "229"
+},
+{
+ "name": ""221"",
+ "majority": ""Edinburgh South"",
+ "winner": "230"
+},
+{
+ "name": ""222"",
+ "majority": ""Edinburgh South West"",
+ "winner": "231"
+},
+{
+ "name": ""223"",
+ "majority": ""Edinburgh West"",
+ "winner": "232"
+},
+{
+ "name": ""224"",
+ "majority": ""Edmonton"",
+ "winner": "233"
+},
+{
+ "name": ""225"",
+ "majority": ""Ellesmere Port and Neston"",
+ "winner": "234"
+},
+{
+ "name": ""226"",
+ "majority": ""Elmet and Rothwell"",
+ "winner": "235"
+},
+{
+ "name": ""227"",
+ "majority": ""Eltham"",
+ "winner": "236"
+},
+{
+ "name": ""228"",
+ "majority": ""Enfield North"",
+ "winner": "237"
+},
+{
+ "name": ""229"",
+ "majority": ""Enfield",
+ "winner": "238"
+},
+{
+ "name": ""230"",
+ "majority": ""Epping Forest"",
+ "winner": "239"
+},
+{
+ "name": ""231"",
+ "majority": ""Epsom and Ewell"",
+ "winner": "240"
+},
+{
+ "name": ""232"",
+ "majority": ""Erewash"",
+ "winner": "241"
+},
+{
+ "name": ""233"",
+ "majority": ""Erith and Thamesmead"",
+ "winner": "242"
+},
+{
+ "name": ""234"",
+ "majority": ""Esher and Walton"",
+ "winner": "243"
+},
+{
+ "name": ""235"",
+ "majority": ""Exeter"",
+ "winner": "244"
+},
+{
+ "name": ""236"",
+ "majority": ""Falkirk"",
+ "winner": "245"
+},
+{
+ "name": ""237"",
+ "majority": ""Fareham"",
+ "winner": "246"
+},
+{
+ "name": ""238"",
+ "majority": ""Faversham and Mid Kent"",
+ "winner": "247"
+},
+{
+ "name": ""239"",
+ "majority": ""Feltham and Heston"",
+ "winner": "248"
+},
+{
+ "name": ""240"",
+ "majority": ""North East Fife"",
+ "winner": "250"
+},
+{
+ "name": ""241"",
+ "majority": ""Filton and Bradley Stoke"",
+ "winner": "251"
+},
+{
+ "name": ""242"",
+ "majority": ""Finchley and Golders Green"",
+ "winner": "252"
+},
+{
+ "name": ""243"",
+ "majority": ""Folkestone and Hythe"",
+ "winner": "253"
+},
+{
+ "name": ""244"",
+ "majority": ""Forest of Dean"",
+ "winner": "254"
+},
+{
+ "name": ""245"",
+ "majority": ""Fylde"",
+ "winner": "256"
+},
+{
+ "name": ""246"",
+ "majority": ""Gainsborough"",
+ "winner": "257"
+},
+{
+ "name": ""247"",
+ "majority": ""Garston and Halewood"",
+ "winner": "258"
+},
+{
+ "name": ""248"",
+ "majority": ""Gateshead"",
+ "winner": "259"
+},
+{
+ "name": ""249"",
+ "majority": ""Gedling"",
+ "winner": "260"
+},
+{
+ "name": ""250"",
+ "majority": ""Gillingham and Rainham"",
+ "winner": "261"
+},
+{
+ "name": ""251"",
+ "majority": ""Glasgow Central"",
+ "winner": "262"
+},
+{
+ "name": ""252"",
+ "majority": ""Glasgow East"",
+ "winner": "263"
+},
+{
+ "name": ""253"",
+ "majority": ""Glasgow North"",
+ "winner": "264"
+},
+{
+ "name": ""254"",
+ "majority": ""Glasgow North East"",
+ "winner": "265"
+},
+{
+ "name": ""255"",
+ "majority": ""Glasgow North West"",
+ "winner": "266"
+},
+{
+ "name": ""256"",
+ "majority": ""Glasgow South"",
+ "winner": "267"
+},
+{
+ "name": ""257"",
+ "majority": ""Glasgow South West"",
+ "winner": "268"
+},
+{
+ "name": ""258"",
+ "majority": ""Glenrothes"",
+ "winner": "269"
+},
+{
+ "name": ""259"",
+ "majority": ""Gloucester"",
+ "winner": "270"
+},
+{
+ "name": ""260"",
+ "majority": ""Gordon"",
+ "winner": "271"
+},
+{
+ "name": ""261"",
+ "majority": ""Gosport"",
+ "winner": "272"
+},
+{
+ "name": ""262"",
+ "majority": ""Gower"",
+ "winner": "273"
+},
+{
+ "name": ""263"",
+ "majority": ""Grantham and Stamford"",
+ "winner": "274"
+},
+{
+ "name": ""264"",
+ "majority": ""Gravesham"",
+ "winner": "275"
+},
+{
+ "name": ""265"",
+ "majority": ""Great Grimsby"",
+ "winner": "276"
+},
+{
+ "name": ""266"",
+ "majority": ""Great Yarmouth"",
+ "winner": "277"
+},
+{
+ "name": ""267"",
+ "majority": ""Greenwich and Woolwich"",
+ "winner": "278"
+},
+{
+ "name": ""268"",
+ "majority": ""Guildford"",
+ "winner": "279"
+},
+{
+ "name": ""269"",
+ "majority": ""Hackney North and Stoke Newington"",
+ "winner": "280"
+},
+{
+ "name": ""270"",
+ "majority": ""Hackney South and Shoreditch"",
+ "winner": "281"
+},
+{
+ "name": ""271"",
+ "majority": ""Halesowen and Rowley Regis"",
+ "winner": "282"
+},
+{
+ "name": ""272"",
+ "majority": ""Halifax"",
+ "winner": "283"
+},
+{
+ "name": ""273"",
+ "majority": ""Haltemprice and Howden"",
+ "winner": "284"
+},
+{
+ "name": ""274"",
+ "majority": ""Halton"",
+ "winner": "285"
+},
+{
+ "name": ""275"",
+ "majority": ""Hammersmith"",
+ "winner": "286"
+},
+{
+ "name": ""276"",
+ "majority": ""East Hampshire"",
+ "winner": "287"
+},
+{
+ "name": ""277"",
+ "majority": ""North East Hampshire"",
+ "winner": "288"
+},
+{
+ "name": ""278"",
+ "majority": ""North West Hampshire"",
+ "winner": "289"
+},
+{
+ "name": ""279"",
+ "majority": ""Hampstead and Kilburn"",
+ "winner": "290"
+},
+{
+ "name": ""280"",
+ "majority": ""Harborough"",
+ "winner": "291"
+},
+{
+ "name": ""281"",
+ "majority": ""Harlow"",
+ "winner": "292"
+},
+{
+ "name": ""282"",
+ "majority": ""Harrogate and Knaresborough"",
+ "winner": "293"
+},
+{
+ "name": ""283"",
+ "majority": ""Harrow East"",
+ "winner": "294"
+},
+{
+ "name": ""284"",
+ "majority": ""Harrow West"",
+ "winner": "295"
+},
+{
+ "name": ""285"",
+ "majority": ""Hartlepool"",
+ "winner": "296"
+},
+{
+ "name": ""286"",
+ "majority": ""Harwich and North Essex"",
+ "winner": "297"
+},
+{
+ "name": ""287"",
+ "majority": ""Hastings and Rye"",
+ "winner": "298"
+},
+{
+ "name": ""288"",
+ "majority": ""Havant"",
+ "winner": "299"
+},
+{
+ "name": ""289"",
+ "majority": ""Hayes and Harlington"",
+ "winner": "300"
+},
+{
+ "name": ""290"",
+ "majority": ""Hazel Grove"",
+ "winner": "301"
+},
+{
+ "name": ""291"",
+ "majority": ""Hemel Hempstead"",
+ "winner": "302"
+},
+{
+ "name": ""292"",
+ "majority": ""Hemsworth"",
+ "winner": "303"
+},
+{
+ "name": ""293"",
+ "majority": ""Hendon"",
+ "winner": "304"
+},
+{
+ "name": ""294"",
+ "majority": ""Henley"",
+ "winner": "305"
+},
+{
+ "name": ""295"",
+ "majority": ""Hereford and South Herefordshire"",
+ "winner": "306"
+},
+{
+ "name": ""296"",
+ "majority": ""North Herefordshire"",
+ "winner": "307"
+},
+{
+ "name": ""297"",
+ "majority": ""Hertford and Stortford"",
+ "winner": "308"
+},
+{
+ "name": ""298"",
+ "majority": ""North East Hertfordshire"",
+ "winner": "309"
+},
+{
+ "name": ""299"",
+ "majority": ""South West Hertfordshire"",
+ "winner": "310"
+},
+{
+ "name": ""300"",
+ "majority": ""Hertsmere"",
+ "winner": "311"
+},
+{
+ "name": ""301"",
+ "majority": ""Hexham"",
+ "winner": "312"
+},
+{
+ "name": ""302"",
+ "majority": ""Heywood and Middleton"",
+ "winner": "313"
+},
+{
+ "name": ""303"",
+ "majority": ""High Peak"",
+ "winner": "314"
+},
+{
+ "name": ""304"",
+ "majority": ""Hitchin and Harpenden"",
+ "winner": "315"
+},
+{
+ "name": ""305"",
+ "majority": ""Holborn and St Pancras"",
+ "winner": "316"
+},
+{
+ "name": ""306"",
+ "majority": ""Hornchurch and Upminster"",
+ "winner": "317"
+},
+{
+ "name": ""307"",
+ "majority": ""Hornsey and Wood Green"",
+ "winner": "318"
+},
+{
+ "name": ""308"",
+ "majority": ""Horsham"",
+ "winner": "319"
+},
+{
+ "name": ""309"",
+ "majority": ""Houghton and Sunderland South"",
+ "winner": "320"
+},
+{
+ "name": ""310"",
+ "majority": ""Hove"",
+ "winner": "321"
+},
+{
+ "name": ""311"",
+ "majority": ""Huddersfield"",
+ "winner": "322"
+},
+{
+ "name": ""312"",
+ "majority": ""Kingston upon Hull East"",
+ "winner": "323"
+},
+{
+ "name": ""313"",
+ "majority": ""Kingston upon Hull North"",
+ "winner": "324"
+},
+{
+ "name": ""314"",
+ "majority": ""Kingston upon Hull West and Hessle"",
+ "winner": "325"
+},
+{
+ "name": ""315"",
+ "majority": ""Huntingdon"",
+ "winner": "326"
+},
+{
+ "name": ""316"",
+ "majority": ""Hyndburn"",
+ "winner": "327"
+},
+{
+ "name": ""317"",
+ "majority": ""Ilford North"",
+ "winner": "328"
+},
+{
+ "name": ""318"",
+ "majority": ""Ilford South"",
+ "winner": "329"
+},
+{
+ "name": ""319"",
+ "majority": ""Inverclyde"",
+ "winner": "330"
+},
+{
+ "name": ""320"",
+ "majority": ""Inverness",
+ "winner": "331"
+},
+{
+ "name": ""321"",
+ "majority": ""Ipswich"",
+ "winner": "332"
+},
+{
+ "name": ""322"",
+ "majority": ""Isle of Wight"",
+ "winner": "333"
+},
+{
+ "name": ""323"",
+ "majority": ""Islington North"",
+ "winner": "334"
+},
+{
+ "name": ""324"",
+ "majority": ""Islington South and Finsbury"",
+ "winner": "335"
+},
+{
+ "name": ""325"",
+ "majority": ""Islwyn"",
+ "winner": "336"
+},
+{
+ "name": ""326"",
+ "majority": ""Jarrow"",
+ "winner": "337"
+},
+{
+ "name": ""327"",
+ "majority": ""Keighley"",
+ "winner": "338"
+},
+{
+ "name": ""328"",
+ "majority": ""Kenilworth and Southam"",
+ "winner": "339"
+},
+{
+ "name": ""329"",
+ "majority": ""Kensington"",
+ "winner": "340"
+},
+{
+ "name": ""330"",
+ "majority": ""Kettering"",
+ "winner": "341"
+},
+{
+ "name": ""331"",
+ "majority": ""Kilmarnock and Loudoun"",
+ "winner": "342"
+},
+{
+ "name": ""332"",
+ "majority": ""Kingston and Surbiton"",
+ "winner": "343"
+},
+{
+ "name": ""333"",
+ "majority": ""Kingswood"",
+ "winner": "344"
+},
+{
+ "name": ""334"",
+ "majority": ""Kirkcaldy and Cowdenbeath"",
+ "winner": "345"
+},
+{
+ "name": ""335"",
+ "majority": ""Knowsley"",
+ "winner": "346"
+},
+{
+ "name": ""336"",
+ "majority": ""Lanark and Hamilton East"",
+ "winner": "348"
+},
+{
+ "name": ""337"",
+ "majority": ""West Lancashire"",
+ "winner": "349"
+},
+{
+ "name": ""338"",
+ "majority": ""Lancaster and Fleetwood"",
+ "winner": "350"
+},
+{
+ "name": ""339"",
+ "majority": ""Leeds Central"",
+ "winner": "351"
+},
+{
+ "name": ""340"",
+ "majority": ""Leeds East"",
+ "winner": "352"
+},
+{
+ "name": ""341"",
+ "majority": ""Leeds North East"",
+ "winner": "353"
+},
+{
+ "name": ""342"",
+ "majority": ""Leeds North West"",
+ "winner": "354"
+},
+{
+ "name": ""343"",
+ "majority": ""Leeds West"",
+ "winner": "355"
+},
+{
+ "name": ""344"",
+ "majority": ""Leicester East"",
+ "winner": "356"
+},
+{
+ "name": ""345"",
+ "majority": ""Leicester South"",
+ "winner": "357"
+},
+{
+ "name": ""346"",
+ "majority": ""Leicester West"",
+ "winner": "358"
+},
+{
+ "name": ""347"",
+ "majority": ""North West Leicestershire"",
+ "winner": "359"
+},
+{
+ "name": ""348"",
+ "majority": ""South Leicestershire"",
+ "winner": "360"
+},
+{
+ "name": ""349"",
+ "majority": ""Leigh"",
+ "winner": "361"
+},
+{
+ "name": ""350"",
+ "majority": ""Lewes"",
+ "winner": "362"
+},
+{
+ "name": ""351"",
+ "majority": ""Lewisham",
+ "winner": "363"
+},
+{
+ "name": ""352"",
+ "majority": ""Lewisham East"",
+ "winner": "364"
+},
+{
+ "name": ""353"",
+ "majority": ""Lewisham West and Penge"",
+ "winner": "365"
+},
+{
+ "name": ""354"",
+ "majority": ""Leyton and Wanstead"",
+ "winner": "366"
+},
+{
+ "name": ""355"",
+ "majority": ""Lichfield"",
+ "winner": "367"
+},
+{
+ "name": ""356"",
+ "majority": ""Lincoln"",
+ "winner": "368"
+},
+{
+ "name": ""357"",
+ "majority": ""Linlithgow and East Falkirk"",
+ "winner": "369"
+},
+{
+ "name": ""358"",
+ "majority": ""Liverpool",
+ "winner": "370"
+},
+{
+ "name": ""359"",
+ "majority": ""Liverpool",
+ "winner": "371"
+},
+{
+ "name": ""360"",
+ "majority": ""Liverpool",
+ "winner": "372"
+},
+{
+ "name": ""361"",
+ "majority": ""Liverpool",
+ "winner": "373"
+},
+{
+ "name": ""362"",
+ "majority": ""Livingston"",
+ "winner": "374"
+},
+{
+ "name": ""363"",
+ "majority": ""Llanelli"",
+ "winner": "375"
+},
+{
+ "name": ""364"",
+ "majority": ""Loughborough"",
+ "winner": "377"
+},
+{
+ "name": ""365"",
+ "majority": ""Louth and Horncastle"",
+ "winner": "378"
+},
+{
+ "name": ""366"",
+ "majority": ""Ludlow"",
+ "winner": "379"
+},
+{
+ "name": ""367"",
+ "majority": ""Luton North"",
+ "winner": "380"
+},
+{
+ "name": ""368"",
+ "majority": ""Luton South"",
+ "winner": "381"
+},
+{
+ "name": ""369"",
+ "majority": ""Macclesfield"",
+ "winner": "382"
+},
+{
+ "name": ""370"",
+ "majority": ""Maidenhead"",
+ "winner": "383"
+},
+{
+ "name": ""371"",
+ "majority": ""Maidstone and The Weald"",
+ "winner": "384"
+},
+{
+ "name": ""372"",
+ "majority": ""Makerfield"",
+ "winner": "385"
+},
+{
+ "name": ""373"",
+ "majority": ""Maldon"",
+ "winner": "386"
+},
+{
+ "name": ""374"",
+ "majority": ""Manchester Central"",
+ "winner": "387"
+},
+{
+ "name": ""375"",
+ "majority": ""Manchester",
+ "winner": "388"
+},
+{
+ "name": ""376"",
+ "majority": ""Manchester",
+ "winner": "389"
+},
+{
+ "name": ""377"",
+ "majority": ""Mansfield"",
+ "winner": "390"
+},
+{
+ "name": ""378"",
+ "majority": ""Meon Valley"",
+ "winner": "391"
+},
+{
+ "name": ""379"",
+ "majority": ""Meriden"",
+ "winner": "392"
+},
+{
+ "name": ""380"",
+ "majority": ""Merthyr Tydfil and Rhymney"",
+ "winner": "393"
+},
+{
+ "name": ""381"",
+ "majority": ""Middlesbrough"",
+ "winner": "394"
+},
+{
+ "name": ""382"",
+ "majority": ""Middlesbrough South and East Cleveland"",
+ "winner": "395"
+},
+{
+ "name": ""383"",
+ "majority": ""Midlothian"",
+ "winner": "396"
+},
+{
+ "name": ""384"",
+ "majority": ""Milton Keynes North"",
+ "winner": "397"
+},
+{
+ "name": ""385"",
+ "majority": ""Milton Keynes South"",
+ "winner": "398"
+},
+{
+ "name": ""386"",
+ "majority": ""Mitcham and Morden"",
+ "winner": "399"
+},
+{
+ "name": ""387"",
+ "majority": ""Mole Valley"",
+ "winner": "400"
+},
+{
+ "name": ""388"",
+ "majority": ""Monmouth"",
+ "winner": "401"
+},
+{
+ "name": ""389"",
+ "majority": ""Montgomeryshire"",
+ "winner": "402"
+},
+{
+ "name": ""390"",
+ "majority": ""Moray"",
+ "winner": "403"
+},
+{
+ "name": ""391"",
+ "majority": ""Morecambe and Lunesdale"",
+ "winner": "404"
+},
+{
+ "name": ""392"",
+ "majority": ""Morley and Outwood"",
+ "winner": "405"
+},
+{
+ "name": ""393"",
+ "majority": ""Motherwell and Wishaw"",
+ "winner": "406"
+},
+{
+ "name": ""394"",
+ "majority": ""Na h-Eileanan an Iar"",
+ "winner": "407"
+},
+{
+ "name": ""395"",
+ "majority": ""Neath"",
+ "winner": "408"
+},
+{
+ "name": ""396"",
+ "majority": ""New Forest East"",
+ "winner": "409"
+},
+{
+ "name": ""397"",
+ "majority": ""New Forest West"",
+ "winner": "410"
+},
+{
+ "name": ""398"",
+ "majority": ""Newark"",
+ "winner": "411"
+},
+{
+ "name": ""399"",
+ "majority": ""Newbury"",
+ "winner": "412"
+},
+{
+ "name": ""400"",
+ "majority": ""Newcastle-under-Lyme"",
+ "winner": "413"
+},
+{
+ "name": ""401"",
+ "majority": ""Newcastle upon Tyne Central"",
+ "winner": "414"
+},
+{
+ "name": ""402"",
+ "majority": ""Newcastle upon Tyne East"",
+ "winner": "415"
+},
+{
+ "name": ""403"",
+ "majority": ""Newcastle upon Tyne North"",
+ "winner": "416"
+},
+{
+ "name": ""404"",
+ "majority": ""Newport East"",
+ "winner": "417"
+},
+{
+ "name": ""405"",
+ "majority": ""Newport West"",
+ "winner": "418"
+},
+{
+ "name": ""406"",
+ "majority": ""Newton Abbot"",
+ "winner": "420"
+},
+{
+ "name": ""407"",
+ "majority": ""Mid Norfolk"",
+ "winner": "421"
+},
+{
+ "name": ""408"",
+ "majority": ""North Norfolk"",
+ "winner": "422"
+},
+{
+ "name": ""409"",
+ "majority": ""North West Norfolk"",
+ "winner": "423"
+},
+{
+ "name": ""410"",
+ "majority": ""South Norfolk"",
+ "winner": "424"
+},
+{
+ "name": ""411"",
+ "majority": ""South West Norfolk"",
+ "winner": "425"
+},
+{
+ "name": ""412"",
+ "majority": ""Normanton",
+ "winner": "426"
+},
+{
+ "name": ""413"",
+ "majority": ""Northampton North"",
+ "winner": "427"
+},
+{
+ "name": ""414"",
+ "majority": ""Northampton South"",
+ "winner": "428"
+},
+{
+ "name": ""415"",
+ "majority": ""South Northamptonshire"",
+ "winner": "429"
+},
+{
+ "name": ""416"",
+ "majority": ""Norwich North"",
+ "winner": "430"
+},
+{
+ "name": ""417"",
+ "majority": ""Norwich South"",
+ "winner": "431"
+},
+{
+ "name": ""418"",
+ "majority": ""Nottingham East"",
+ "winner": "432"
+},
+{
+ "name": ""419"",
+ "majority": ""Nottingham North"",
+ "winner": "433"
+},
+{
+ "name": ""420"",
+ "majority": ""Nottingham South"",
+ "winner": "434"
+},
+{
+ "name": ""421"",
+ "majority": ""Nuneaton"",
+ "winner": "435"
+},
+{
+ "name": ""422"",
+ "majority": ""Ochil and South Perthshire"",
+ "winner": "436"
+},
+{
+ "name": ""423"",
+ "majority": ""Ogmore"",
+ "winner": "437"
+},
+{
+ "name": ""424"",
+ "majority": ""Old Bexley and Sidcup"",
+ "winner": "438"
+},
+{
+ "name": ""425"",
+ "majority": ""Oldham East and Saddleworth"",
+ "winner": "439"
+},
+{
+ "name": ""426"",
+ "majority": ""Oldham West and Royton"",
+ "winner": "440"
+},
+{
+ "name": ""427"",
+ "majority": ""Orkney and Shetland"",
+ "winner": "441"
+},
+{
+ "name": ""428"",
+ "majority": ""Orpington"",
+ "winner": "442"
+},
+{
+ "name": ""429"",
+ "majority": ""Oxford East"",
+ "winner": "443"
+},
+{
+ "name": ""430"",
+ "majority": ""Oxford West and Abingdon"",
+ "winner": "444"
+},
+{
+ "name": ""431"",
+ "majority": ""Paisley and Renfrewshire North"",
+ "winner": "445"
+},
+{
+ "name": ""432"",
+ "majority": ""Paisley and Renfrewshire South"",
+ "winner": "446"
+},
+{
+ "name": ""433"",
+ "majority": ""Pendle"",
+ "winner": "447"
+},
+{
+ "name": ""434"",
+ "majority": ""Penistone and Stocksbridge"",
+ "winner": "448"
+},
+{
+ "name": ""435"",
+ "majority": ""Penrith and The Border"",
+ "winner": "449"
+},
+{
+ "name": ""436"",
+ "majority": ""Perth and North Perthshire"",
+ "winner": "450"
+},
+{
+ "name": ""437"",
+ "majority": ""Peterborough"",
+ "winner": "451"
+},
+{
+ "name": ""438"",
+ "majority": ""Plymouth",
+ "winner": "452"
+},
+{
+ "name": ""439"",
+ "majority": ""Plymouth",
+ "winner": "453"
+},
+{
+ "name": ""440"",
+ "majority": ""Pontypridd"",
+ "winner": "454"
+},
+{
+ "name": ""441"",
+ "majority": ""Poole"",
+ "winner": "455"
+},
+{
+ "name": ""442"",
+ "majority": ""Poplar and Limehouse"",
+ "winner": "456"
+},
+{
+ "name": ""443"",
+ "majority": ""Portsmouth North"",
+ "winner": "457"
+},
+{
+ "name": ""444"",
+ "majority": ""Portsmouth South"",
+ "winner": "458"
+},
+{
+ "name": ""445"",
+ "majority": ""Preseli Pembrokeshire"",
+ "winner": "459"
+},
+{
+ "name": ""446"",
+ "majority": ""Preston"",
+ "winner": "460"
+},
+{
+ "name": ""447"",
+ "majority": ""Pudsey"",
+ "winner": "461"
+},
+{
+ "name": ""448"",
+ "majority": ""Putney"",
+ "winner": "462"
+},
+{
+ "name": ""449"",
+ "majority": ""Rayleigh and Wickford"",
+ "winner": "463"
+},
+{
+ "name": ""450"",
+ "majority": ""Reading East"",
+ "winner": "464"
+},
+{
+ "name": ""451"",
+ "majority": ""Reading West"",
+ "winner": "465"
+},
+{
+ "name": ""452"",
+ "majority": ""Redcar"",
+ "winner": "466"
+},
+{
+ "name": ""453"",
+ "majority": ""Redditch"",
+ "winner": "467"
+},
+{
+ "name": ""454"",
+ "majority": ""Reigate"",
+ "winner": "468"
+},
+{
+ "name": ""455"",
+ "majority": ""East Renfrewshire"",
+ "winner": "469"
+},
+{
+ "name": ""456"",
+ "majority": ""Rhondda"",
+ "winner": "470"
+},
+{
+ "name": ""457"",
+ "majority": ""Ribble Valley"",
+ "winner": "471"
+},
+{
+ "name": ""458"",
+ "majority": ""Richmond (Yorks)"",
+ "winner": "472"
+},
+{
+ "name": ""459"",
+ "majority": ""Richmond Park"",
+ "winner": "473"
+},
+{
+ "name": ""460"",
+ "majority": ""Rochdale"",
+ "winner": "474"
+},
+{
+ "name": ""461"",
+ "majority": ""Rochester and Strood"",
+ "winner": "475"
+},
+{
+ "name": ""462"",
+ "majority": ""Rochford and Southend East"",
+ "winner": "476"
+},
+{
+ "name": ""463"",
+ "majority": ""Romford"",
+ "winner": "477"
+},
+{
+ "name": ""464"",
+ "majority": ""Romsey and Southampton North"",
+ "winner": "478"
+},
+{
+ "name": ""465"",
+ "majority": ""Ross",
+ "winner": "479"
+},
+{
+ "name": ""466"",
+ "majority": ""Rossendale and Darwen"",
+ "winner": "480"
+},
+{
+ "name": ""467"",
+ "majority": ""Rother Valley"",
+ "winner": "481"
+},
+{
+ "name": ""468"",
+ "majority": ""Rotherham"",
+ "winner": "482"
+},
+{
+ "name": ""469"",
+ "majority": ""Rugby"",
+ "winner": "483"
+},
+{
+ "name": ""470"",
+ "majority": ""Ruislip",
+ "winner": "484"
+},
+{
+ "name": ""471"",
+ "majority": ""Runnymede and Weybridge"",
+ "winner": "485"
+},
+{
+ "name": ""472"",
+ "majority": ""Rushcliffe"",
+ "winner": "486"
+},
+{
+ "name": ""473"",
+ "majority": ""Rutherglen and Hamilton West"",
+ "winner": "487"
+},
+{
+ "name": ""474"",
+ "majority": ""Rutland and Melton"",
+ "winner": "488"
+},
+{
+ "name": ""475"",
+ "majority": ""Saffron Walden"",
+ "winner": "489"
+},
+{
+ "name": ""476"",
+ "majority": ""St Albans"",
+ "winner": "490"
+},
+{
+ "name": ""477"",
+ "majority": ""St Austell and Newquay"",
+ "winner": "491"
+},
+{
+ "name": ""478"",
+ "majority": ""St Helens North"",
+ "winner": "492"
+},
+{
+ "name": ""479"",
+ "majority": ""St Helens South and Whiston"",
+ "winner": "493"
+},
+{
+ "name": ""480"",
+ "majority": ""St Ives"",
+ "winner": "494"
+},
+{
+ "name": ""481"",
+ "majority": ""Salford and Eccles"",
+ "winner": "495"
+},
+{
+ "name": ""482"",
+ "majority": ""Salisbury"",
+ "winner": "496"
+},
+{
+ "name": ""483"",
+ "majority": ""Scarborough and Whitby"",
+ "winner": "497"
+},
+{
+ "name": ""484"",
+ "majority": ""Scunthorpe"",
+ "winner": "498"
+},
+{
+ "name": ""485"",
+ "majority": ""Sedgefield"",
+ "winner": "499"
+},
+{
+ "name": ""486"",
+ "majority": ""Sefton Central"",
+ "winner": "500"
+},
+{
+ "name": ""487"",
+ "majority": ""Selby and Ainsty"",
+ "winner": "501"
+},
+{
+ "name": ""488"",
+ "majority": ""Sevenoaks"",
+ "winner": "502"
+},
+{
+ "name": ""489"",
+ "majority": ""Sheffield",
+ "winner": "503"
+},
+{
+ "name": ""490"",
+ "majority": ""Sheffield Central"",
+ "winner": "504"
+},
+{
+ "name": ""491"",
+ "majority": ""Sheffield",
+ "winner": "505"
+},
+{
+ "name": ""492"",
+ "majority": ""Sheffield",
+ "winner": "506"
+},
+{
+ "name": ""493"",
+ "majority": ""Sheffield South East"",
+ "winner": "507"
+},
+{
+ "name": ""494"",
+ "majority": ""Sherwood"",
+ "winner": "508"
+},
+{
+ "name": ""495"",
+ "majority": ""Shipley"",
+ "winner": "509"
+},
+{
+ "name": ""496"",
+ "majority": ""Shrewsbury and Atcham"",
+ "winner": "510"
+},
+{
+ "name": ""497"",
+ "majority": ""North Shropshire"",
+ "winner": "511"
+},
+{
+ "name": ""498"",
+ "majority": ""Sittingbourne and Sheppey"",
+ "winner": "512"
+},
+{
+ "name": ""499"",
+ "majority": ""Skipton and Ripon"",
+ "winner": "513"
+},
+{
+ "name": ""500"",
+ "majority": ""Sleaford and North Hykeham"",
+ "winner": "514"
+},
+{
+ "name": ""501"",
+ "majority": ""Slough"",
+ "winner": "515"
+},
+{
+ "name": ""502"",
+ "majority": ""Solihull"",
+ "winner": "516"
+},
+{
+ "name": ""503"",
+ "majority": ""North Somerset"",
+ "winner": "517"
+},
+{
+ "name": ""504"",
+ "majority": ""North East Somerset"",
+ "winner": "518"
+},
+{
+ "name": ""505"",
+ "majority": ""Somerton and Frome"",
+ "winner": "519"
+},
+{
+ "name": ""506"",
+ "majority": ""South Holland and The Deepings"",
+ "winner": "520"
+},
+{
+ "name": ""507"",
+ "majority": ""South Ribble"",
+ "winner": "521"
+},
+{
+ "name": ""508"",
+ "majority": ""South Shields"",
+ "winner": "522"
+},
+{
+ "name": ""509"",
+ "majority": ""Southampton",
+ "winner": "523"
+},
+{
+ "name": ""510"",
+ "majority": ""Southampton",
+ "winner": "524"
+},
+{
+ "name": ""511"",
+ "majority": ""Southend West"",
+ "winner": "525"
+},
+{
+ "name": ""512"",
+ "majority": ""Southport"",
+ "winner": "526"
+},
+{
+ "name": ""513"",
+ "majority": ""Spelthorne"",
+ "winner": "527"
+},
+{
+ "name": ""514"",
+ "majority": ""Stafford"",
+ "winner": "528"
+},
+{
+ "name": ""515"",
+ "majority": ""Staffordshire Moorlands"",
+ "winner": "529"
+},
+{
+ "name": ""516"",
+ "majority": ""South Staffordshire"",
+ "winner": "530"
+},
+{
+ "name": ""517"",
+ "majority": ""Stalybridge and Hyde"",
+ "winner": "531"
+},
+{
+ "name": ""518"",
+ "majority": ""Stevenage"",
+ "winner": "532"
+},
+{
+ "name": ""519"",
+ "majority": ""Stirling"",
+ "winner": "533"
+},
+{
+ "name": ""520"",
+ "majority": ""Stockport"",
+ "winner": "534"
+},
+{
+ "name": ""521"",
+ "majority": ""Stockton North"",
+ "winner": "535"
+},
+{
+ "name": ""522"",
+ "majority": ""Stockton South"",
+ "winner": "536"
+},
+{
+ "name": ""523"",
+ "majority": ""Stoke-on-Trent Central"",
+ "winner": "537"
+},
+{
+ "name": ""524"",
+ "majority": ""Stoke-on-Trent North"",
+ "winner": "538"
+},
+{
+ "name": ""525"",
+ "majority": ""Stoke-on-Trent South"",
+ "winner": "539"
+},
+{
+ "name": ""526"",
+ "majority": ""Stone"",
+ "winner": "540"
+},
+{
+ "name": ""527"",
+ "majority": ""Stourbridge"",
+ "winner": "541"
+},
+{
+ "name": ""528"",
+ "majority": ""Stratford-on-Avon"",
+ "winner": "543"
+},
+{
+ "name": ""529"",
+ "majority": ""Streatham"",
+ "winner": "544"
+},
+{
+ "name": ""530"",
+ "majority": ""Stretford and Urmston"",
+ "winner": "545"
+},
+{
+ "name": ""531"",
+ "majority": ""Stroud"",
+ "winner": "546"
+},
+{
+ "name": ""532"",
+ "majority": ""Central Suffolk and North Ipswich"",
+ "winner": "547"
+},
+{
+ "name": ""533"",
+ "majority": ""Suffolk Coastal"",
+ "winner": "548"
+},
+{
+ "name": ""534"",
+ "majority": ""South Suffolk"",
+ "winner": "549"
+},
+{
+ "name": ""535"",
+ "majority": ""West Suffolk"",
+ "winner": "550"
+},
+{
+ "name": ""536"",
+ "majority": ""Sunderland Central"",
+ "winner": "551"
+},
+{
+ "name": ""537"",
+ "majority": ""East Surrey"",
+ "winner": "552"
+},
+{
+ "name": ""538"",
+ "majority": ""Surrey Heath"",
+ "winner": "553"
+},
+{
+ "name": ""539"",
+ "majority": ""South West Surrey"",
+ "winner": "554"
+},
+{
+ "name": ""540"",
+ "majority": ""Mid Sussex"",
+ "winner": "555"
+},
+{
+ "name": ""541"",
+ "majority": ""Sutton and Cheam"",
+ "winner": "556"
+},
+{
+ "name": ""542"",
+ "majority": ""Sutton Coldfield"",
+ "winner": "557"
+},
+{
+ "name": ""543"",
+ "majority": ""Swansea East"",
+ "winner": "558"
+},
+{
+ "name": ""544"",
+ "majority": ""Swansea West"",
+ "winner": "559"
+},
+{
+ "name": ""545"",
+ "majority": ""North Swindon"",
+ "winner": "560"
+},
+{
+ "name": ""546"",
+ "majority": ""South Swindon"",
+ "winner": "561"
+},
+{
+ "name": ""547"",
+ "majority": ""Tamworth"",
+ "winner": "562"
+},
+{
+ "name": ""548"",
+ "majority": ""Tatton"",
+ "winner": "563"
+},
+{
+ "name": ""549"",
+ "majority": ""Taunton Deane"",
+ "winner": "564"
+},
+{
+ "name": ""550"",
+ "majority": ""Telford"",
+ "winner": "565"
+},
+{
+ "name": ""551"",
+ "majority": ""Tewkesbury"",
+ "winner": "566"
+},
+{
+ "name": ""552"",
+ "majority": ""North Thanet"",
+ "winner": "567"
+},
+{
+ "name": ""553"",
+ "majority": ""South Thanet"",
+ "winner": "568"
+},
+{
+ "name": ""554"",
+ "majority": ""Thirsk and Malton"",
+ "winner": "569"
+},
+{
+ "name": ""555"",
+ "majority": ""Thornbury and Yate"",
+ "winner": "570"
+},
+{
+ "name": ""556"",
+ "majority": ""Thurrock"",
+ "winner": "571"
+},
+{
+ "name": ""557"",
+ "majority": ""Tiverton and Honiton"",
+ "winner": "572"
+},
+{
+ "name": ""558"",
+ "majority": ""Tonbridge and Malling"",
+ "winner": "573"
+},
+{
+ "name": ""559"",
+ "majority": ""Tooting"",
+ "winner": "574"
+},
+{
+ "name": ""560"",
+ "majority": ""Torbay"",
+ "winner": "575"
+},
+{
+ "name": ""561"",
+ "majority": ""Torfaen"",
+ "winner": "576"
+},
+{
+ "name": ""562"",
+ "majority": ""Totnes"",
+ "winner": "577"
+},
+{
+ "name": ""563"",
+ "majority": ""Tottenham"",
+ "winner": "578"
+},
+{
+ "name": ""564"",
+ "majority": ""Truro and Falmouth"",
+ "winner": "579"
+},
+{
+ "name": ""565"",
+ "majority": ""Tunbridge Wells"",
+ "winner": "580"
+},
+{
+ "name": ""566"",
+ "majority": ""Twickenham"",
+ "winner": "581"
+},
+{
+ "name": ""567"",
+ "majority": ""Tynemouth"",
+ "winner": "582"
+},
+{
+ "name": ""568"",
+ "majority": ""North Tyneside"",
+ "winner": "583"
+},
+{
+ "name": ""569"",
+ "majority": ""Uxbridge and South Ruislip"",
+ "winner": "587"
+},
+{
+ "name": ""570"",
+ "majority": ""Vale of Clwyd"",
+ "winner": "588"
+},
+{
+ "name": ""571"",
+ "majority": ""Vale of Glamorgan"",
+ "winner": "589"
+},
+{
+ "name": ""572"",
+ "majority": ""Vauxhall"",
+ "winner": "590"
+},
+{
+ "name": ""573"",
+ "majority": ""Wakefield"",
+ "winner": "591"
+},
+{
+ "name": ""574"",
+ "majority": ""Wallasey"",
+ "winner": "592"
+},
+{
+ "name": ""575"",
+ "majority": ""Walsall North"",
+ "winner": "593"
+},
+{
+ "name": ""576"",
+ "majority": ""Walsall South"",
+ "winner": "594"
+},
+{
+ "name": ""577"",
+ "majority": ""Walthamstow"",
+ "winner": "595"
+},
+{
+ "name": ""578"",
+ "majority": ""Wansbeck"",
+ "winner": "596"
+},
+{
+ "name": ""579"",
+ "majority": ""Wantage"",
+ "winner": "597"
+},
+{
+ "name": ""580"",
+ "majority": ""Warley"",
+ "winner": "598"
+},
+{
+ "name": ""581"",
+ "majority": ""Warrington North"",
+ "winner": "599"
+},
+{
+ "name": ""582"",
+ "majority": ""Warrington South"",
+ "winner": "600"
+},
+{
+ "name": ""583"",
+ "majority": ""Warwick and Leamington"",
+ "winner": "601"
+},
+{
+ "name": ""584"",
+ "majority": ""North Warwickshire"",
+ "winner": "602"
+},
+{
+ "name": ""585"",
+ "majority": ""Washington and Sunderland West"",
+ "winner": "603"
+},
+{
+ "name": ""586"",
+ "majority": ""Watford"",
+ "winner": "604"
+},
+{
+ "name": ""587"",
+ "majority": ""Waveney"",
+ "winner": "605"
+},
+{
+ "name": ""588"",
+ "majority": ""Wealden"",
+ "winner": "606"
+},
+{
+ "name": ""589"",
+ "majority": ""Weaver Vale"",
+ "winner": "607"
+},
+{
+ "name": ""590"",
+ "majority": ""Wellingborough"",
+ "winner": "608"
+},
+{
+ "name": ""591"",
+ "majority": ""Wells"",
+ "winner": "609"
+},
+{
+ "name": ""592"",
+ "majority": ""Welwyn Hatfield"",
+ "winner": "610"
+},
+{
+ "name": ""593"",
+ "majority": ""Wentworth and Dearne"",
+ "winner": "611"
+},
+{
+ "name": ""594"",
+ "majority": ""West Bromwich East"",
+ "winner": "612"
+},
+{
+ "name": ""595"",
+ "majority": ""West Bromwich West"",
+ "winner": "613"
+},
+{
+ "name": ""596"",
+ "majority": ""West Ham"",
+ "winner": "614"
+},
+{
+ "name": ""597"",
+ "majority": ""Westminster North"",
+ "winner": "615"
+},
+{
+ "name": ""598"",
+ "majority": ""Westmorland and Lonsdale"",
+ "winner": "616"
+},
+{
+ "name": ""599"",
+ "majority": ""Weston-Super-Mare"",
+ "winner": "617"
+},
+{
+ "name": ""600"",
+ "majority": ""Wigan"",
+ "winner": "618"
+},
+{
+ "name": ""601"",
+ "majority": ""North Wiltshire"",
+ "winner": "619"
+},
+{
+ "name": ""602"",
+ "majority": ""South West Wiltshire"",
+ "winner": "620"
+},
+{
+ "name": ""603"",
+ "majority": ""Wimbledon"",
+ "winner": "621"
+},
+{
+ "name": ""604"",
+ "majority": ""Winchester"",
+ "winner": "622"
+},
+{
+ "name": ""605"",
+ "majority": ""Windsor"",
+ "winner": "623"
+},
+{
+ "name": ""606"",
+ "majority": ""Wirral South"",
+ "winner": "624"
+},
+{
+ "name": ""607"",
+ "majority": ""Wirral West"",
+ "winner": "625"
+},
+{
+ "name": ""608"",
+ "majority": ""Witham"",
+ "winner": "626"
+},
+{
+ "name": ""609"",
+ "majority": ""Witney"",
+ "winner": "627"
+},
+{
+ "name": ""610"",
+ "majority": ""Woking"",
+ "winner": "628"
+},
+{
+ "name": ""611"",
+ "majority": ""Wokingham"",
+ "winner": "629"
+},
+{
+ "name": ""612"",
+ "majority": ""Wolverhampton North East"",
+ "winner": "630"
+},
+{
+ "name": ""613"",
+ "majority": ""Wolverhampton South East"",
+ "winner": "631"
+},
+{
+ "name": ""614"",
+ "majority": ""Wolverhampton South West"",
+ "winner": "632"
+},
+{
+ "name": ""615"",
+ "majority": ""Worcester"",
+ "winner": "633"
+},
+{
+ "name": ""616"",
+ "majority": ""Mid Worcestershire"",
+ "winner": "634"
+},
+{
+ "name": ""617"",
+ "majority": ""West Worcestershire"",
+ "winner": "635"
+},
+{
+ "name": ""618"",
+ "majority": ""Workington"",
+ "winner": "636"
+},
+{
+ "name": ""619"",
+ "majority": ""Worsley and Eccles South"",
+ "winner": "637"
+},
+{
+ "name": ""620"",
+ "majority": ""East Worthing and Shoreham"",
+ "winner": "638"
+},
+{
+ "name": ""621"",
+ "majority": ""Worthing West"",
+ "winner": "639"
+},
+{
+ "name": ""622"",
+ "majority": ""The Wrekin"",
+ "winner": "640"
+},
+{
+ "name": ""623"",
+ "majority": ""Wrexham"",
+ "winner": "641"
+},
+{
+ "name": ""624"",
+ "majority": ""Wycombe"",
+ "winner": "642"
+},
+{
+ "name": ""625"",
+ "majority": ""Wyre and Preston North"",
+ "winner": "643"
+},
+{
+ "name": ""626"",
+ "majority": ""Wyre Forest"",
+ "winner": "644"
+},
+{
+ "name": ""627"",
+ "majority": ""Wythenshawe and Sale East"",
+ "winner": "645"
+},
+{
+ "name": ""628"",
+ "majority": ""Yeovil"",
+ "winner": "646"
+},
+{
+ "name": ""629"",
+ "majority": ""Ynys M�n"",
+ "winner": "647"
+},
+{
+ "name": ""630"",
+ "majority": ""York Central"",
+ "winner": "648"
+},
+{
+ "name": ""631"",
+ "majority": ""York Outer"",
+ "winner": "649"
+},
+{
+ "name": ""632"",
+ "majority": ""East Yorkshire"",
+ "winner": "650"
+}
