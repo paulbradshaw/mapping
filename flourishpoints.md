@@ -76,7 +76,7 @@ If your data has too many categories to enter manually, then you can generate a 
 
 The rest of the table allows you to specify how each category is represented on the map.
 
-The *Icon* category can be a simple shape (use Font Awesome icon names), but can also contain emojis, or image URL links (make sure they are the right size).
+The *Icon* category can be a simple shape (use [Font Awesome icon names](https://fontawesome.com/icons?d=gallery&m=free)), but can also contain emojis, or image URL links (make sure they are the right size).
 
 If you look to the right and continue to scroll down, you will see that the *Select columns to visualise* column has a *Categories* section which specifies the columns in this table to use to draw each point on the map. You can leave these as they are unless you have moved any columns.
 
@@ -94,17 +94,32 @@ In the *Preview* view, to the right of the map, you should see a series of secti
 
 *Base map* allows you to change the type of map being used as a background. The default is *Fiord* which is quite dark - you might want to try a brighter option like *OSM Bright*.
 
-You can also turn various elements of the map on and off, such as transport and place labels.
+You can also turn various elements of the map on and off, such as transport and place labels, in order to make it clearer: water and land use, for example, can probably be turned off to make for a simpler map.
 
 *Inset map* allows you to turn that map in the bottom right off by switching **Display map** to off.
 
-*Markers* allows you to change the default settings for markers - this will affect any that aren't in a category.
+*Markers* allows you to change the default settings for markers - this will affect any that aren't in a category, or all points if you are not using categories.
+  * The *Scale* box here specifies how much it changes the size of the points. If the size of each point is set at 0.3 in the Categories data table, for example, and *Scale* is set to 2, it will scale that measurement up to be twice as big, or 0.6.
+  * The *Icon* box can be changed to any [Font Awesome icon names](https://fontawesome.com/icons?d=gallery&m=free) or you can upload an image or type an emoji
+  * The *Opacity* box is useful in making spots semi-transparent if they are overlapping and you don't want spots to be hidden by other spots on top.
 
-*Legend* allows you to turn the legend off if you are not using categories.
+*Legend* allows you to turn the legend off if you are not using categories. Give it a title to make it clear what the category is that's being used.
 
-*Popups* allows you to customise the markers that appear when someone clicks on a point.
+*Popups* allows you to customise the information window that appears when someone clicks on a point. By default this will be the information from the columns that you selected in the data view for 'Name' and 'Description'.
+
+Click on **Custom content** to specify what appears in the information window and customise it.
+
+For example, if you write something like:
+
+`<strong>{{Location}}}}:</strong> there was a {{Crime type}}. The last outcome was {{Last outcome category}}.`
+
+Then anything in `{{}}` will be pulled from the column of that name.
+
+Note that any columns you name here *must* be added to the 'Name', 'Description', or 'Extra info for popups' boxes in the data view. You also need to make sure that you spell it the same way - including upper and lower case letters and spaces.
 
 *Header* allows you to add a title, subtitle and text to your map.
+
+*Footer* allows you to add information about the source of the data, a byline, and any caveats or disclaimers about the data quality etc.
 
 
 ## Other considerations
