@@ -55,9 +55,11 @@ When you upload it, the map will only show those areas.
 
 ## Getting shapes for other areas in GeoJSON
 
-If you want to show other sorts of areas that aren't already in the data visualisation software, then you'll need to find the data describing those areas. Ideally these should be in GeoJSON format. For example you can use [Martin Chorley's UK-GeoJSON tool](https://martinjc.github.io/UK-GeoJSON/) to generate GeoJSON files of different local authorities (divided into sub-areas such as LSOA or constituency)
+If you want to show other sorts of areas that aren't already in the data visualisation software, then you'll need to find the data describing those areas. Ideally these should be in GeoJSON format. For example you can use [Martin Chorley's UK-GeoJSON tool](https://martinjc.github.io/UK-GeoJSON/) to generate JSON files of different local authorities (divided into sub-areas such as LSOA or constituency - these will work in Datawrapper but not Flourish)
 
-Often you will find these in Shapefile format, or KML. In those cases you will need to convert to GeoJSON so that it will be recognised by Datawrapper or Flourish. 
+Often you will find these in Shapefile format, or KML. For example, most of the ONS files on geographic boundaries at http://geoportal.statistics.gov.uk/ (select the **Boundaries** menu) are provided in that format (click on **Download** and you should get options for KML or Shapefile).
+
+In those cases you will need to convert to GeoJSON so that it will be recognised by Datawrapper or Flourish. 
 
 If that's the situation Google "convert shapefile to geojson" and try one of the tools that you find, e.g. [https://mapshaper.org/](https://mapshaper.org/)
 
