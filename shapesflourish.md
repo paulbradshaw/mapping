@@ -15,6 +15,34 @@ Both are also somewhat limited when it comes to showing just one region: because
 
 ## Matching your data to the shape data
 
-Those two datasets - the area names/codes and values, and the area shapes - will **need to match up** in some way. In other words, the tool you are using will combine 
+Those two datasets - the area names/codes and values, and the area shapes - will **need to match up** in some way. In other words, the names or codes in the shapes dataset will need to match up with some names or codes in your values dataset. 
+
+Before mapping, it's a good idea to check that this is the case, and clean up any that don't match. That's especially likely if you are matching on names rather than codes, because your version might use 'and' where the shapes data might use '&' or have other slight variations in naming.
+
+Flourish, in fact, doesn't use codes for its shapes, which makes it more vulnerable to this problem. 
+
+To check, then, go to Flourish's templates page at https://app.flourish.studio/templates and scroll down to the *Projection map* section. Click on the **Great Britain (local authorities)** map to start creating one.
+
+A new visualisation should open. It will be in *Preview* view, where you can see the map you are creating. 
+
+Switch to the *Data* view by clicking on that tab towards the top of the screen. 
+
+There will be a *Regions* data tab, and a *Points* one. 
+
+The *Points* table has some default data showing certain cities. Delete all this.
+
+The *Regions* table has 3 columns: `geometry`, `id` and `Value`. 
+
+Click on the drop-down arrow on the **Regions** tab and select **Download data** - select **Current sheet only**.
+
+You will now have a copy of the data from the map. In the Values column use a VLOOKUP formula to fetch the values from your own data so that you have the values you want to visualise.
+
+Chances are that in some cases the formula will give you an error (sort the column to bring these to the top). These will be the ones with some slight variation in naming - so go to the original data and check that the places are named the same.
+
+Once you've finished cleaning up the data, you can return to Flourish and click **Upload data file** in the upper right corner of the data, and upload that file.
+
+Switch to the *Preview* tab and you should now see those values visualised on your map. 
+
+Use the options on the right to customise your map, adding a heading and intro, footer, and trying different colours etc.
 
 ## Getting shapes for other areas in GeoJSON
