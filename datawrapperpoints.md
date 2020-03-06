@@ -14,11 +14,13 @@ You are now at the 'Add your data' stage. Click on **Click here to upload a CSV 
 
 You will be asked whether your data contains addresses, or latitude and longitude. Click the one that applies - remember that lat/long is always better (addresses will be geocoded, which may create some errors).
 
-Click **Upload data** and find the data that you want to import. (You can use a CSV of crimes from [the data.police downloads page](https://data.police.uk/data/) if you need some to play with).
+Click **Upload data** and find the data that you want to import. (*You can use a CSV of crimes from [the data.police downloads page](https://data.police.uk/data/) if you need some to play with*).
 
 Alternatively, if it is a small dataset you can copy and paste it into the table on screen.
 
 *Tip: it helps to move your lat and long columns to the start of the dataset before importing, as this makes it easier to correctly select during the import process. You should also remove any columns you don't intend to use as this will help it to load more quickly both as a dataset and, later, as a map.*
+
+*Tip 2: remove any rows that don't have lat and long - these will not be visualised, will slow down the map, and may add unnecessary problems.*
 
 You will need to specify which columns contain latitude, and then latitude, if that's the option you selected. Look out for the **Next** button at the bottom to proceed after each step - you may need to scroll down.
 
