@@ -14,9 +14,7 @@ You are now at the 'Add your data' stage. Click on **Click here to upload a CSV 
 
 You will be asked whether your data contains addresses, or latitude and longitude. Click the one that applies - remember that lat/long is always better (addresses will be geocoded, which may create some errors).
 
-Click **Upload data** and find the data that you want to import.
-
-You can use a CSV of crimes from [the data.police downloads page](https://data.police.uk/data/).
+Click **Upload data** and find the data that you want to import. (You can use a CSV of crimes from [the data.police downloads page](https://data.police.uk/data/) if you need some to play with).
 
 Alternatively, if it is a small dataset you can copy and paste it into the table on screen.
 
