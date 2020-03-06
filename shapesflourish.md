@@ -45,4 +45,20 @@ Switch to the *Preview* tab and you should now see those values visualised on yo
 
 Use the options on the right to customise your map, adding a heading and intro, footer, and trying different colours etc.
 
+## Only showing certain areas
+
+There is a very simple way of limiting your visualisation to certain authorities or constituencies - delete all the others entirely.
+
+When you download the data, sort it to bring all the ones you want to keep to the top (e.g. sort by value if some don't have any), and then delete the rows you want to omit.
+
+When you upload it, the map will only show those areas.
+
 ## Getting shapes for other areas in GeoJSON
+
+If you want to show other sorts of areas that aren't already in the data visualisation software, then you'll need to find the data describing those areas. Ideally these should be in GeoJSON format, but often you will find these in Shapefile format, or KML. In those cases you will need to convert to GeoJSON so that it will be recognised by Datawrapper or Flourish. 
+
+If that's the situation Google "convert shapefile to geojson" and try one of the tools that you find, e.g. [https://mapshaper.org/](https://mapshaper.org/)
+
+Once you've got a GeoJSON file, go into Flourish to create a new visualisation, scroll to the Projection map section, and click on the first option: **Blank (upload your own)** then upload the file to the Regions tab.
+
+As before, you can now download this and match with other data.
